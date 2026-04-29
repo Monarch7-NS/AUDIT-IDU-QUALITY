@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Outputs générés
+output/
+htmlcov/
+.coverage
+
+# Données sources (partagées autrement, pas sur Git)
+data/
+
+# Environnements virtuels
+.venv/
+venv/
+
+# MacOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

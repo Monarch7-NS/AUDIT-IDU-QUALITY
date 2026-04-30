@@ -54,7 +54,8 @@ def rule_R1_modules_maquette_sans_seance(sources: ParsedSources) -> List[Anomaly
 def rule_R1_2_maquette_incomplete(sources: ParsedSources) -> List[Anomaly]:
     """
     R1.2 — Modules réellement suivis par les étudiants IDU mais ABSENTS de la maquette.
-    LANG, SHES, EASI, MATH, DDRS sont obligatoires (sauf LV2 conditionnel).
+    LANG, SHES, EASI, MATH, DDRS sont obligatoires.
+    LV2 (lv2_conditionnel=True) ignoré : choix étudiant après TOEIC, pas une erreur.
     Sévérité : MAJEUR (anomalie de la maquette officielle elle-même).
     """
     anomalies: List[Anomaly] = []
@@ -71,23 +72,23 @@ def rule_R1_2_maquette_incomplete(sources: ParsedSources) -> List[Anomaly]:
     )
 
     for _, row in codes_manquants.iterrows():
-        is_lv2 = bool(row["lv2"])
+        if bool(row["lv2"]):
+            continue
         anomalies.append(Anomaly(
             rule_id     = "R1.2",
             dimension   = Dimension.COMPLETUDE,
-            severity    = Severity.MINEUR if is_lv2 else Severity.MAJEUR,
+            severity    = Severity.MAJEUR,
             code_module = row["code_prefix"],
             description = (
                 f"Module obligatoire '{row['code_prefix']}' (famille: {row['famille']}) "
                 f"absent de MAQUETTE_IDU.json — {row['nb_seances']} séances "
                 f"({row['heures_totales']:.1f}h) déployées en ADE."
-                + (" [LV2 conditionnel TOEIC]" if is_lv2 else "")
             ),
             details = {
                 "famille":         row["famille"],
                 "nb_seances_ade":  int(row["nb_seances"]),
                 "heures_ade":      round(float(row["heures_totales"]), 2),
-                "lv2_optionnel":   is_lv2,
+                "lv2_optionnel":   False,
             },
         ))
     return anomalies

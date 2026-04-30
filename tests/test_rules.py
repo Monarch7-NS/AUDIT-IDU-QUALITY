@@ -123,7 +123,8 @@ class TestCompletude:
         anomalies = completude.rule_R1_modules_maquette_sans_seance(sources)
         assert len(anomalies) == 0
 
-    def test_module_manquant_lang_detecte_avec_lv2_mineur(self):
+    def test_lv2_ignore_completement(self):
+        """LV2 conditionnel = choix étudiant après TOEIC → 0 anomalie."""
         seances = pd.DataFrame([{
             "title_original": "LANG602_TD", "code_prefix": "LANG602",
             "code_maquette": "LANG602", "type_seance": "TD",
@@ -137,10 +138,7 @@ class TestCompletude:
         }])
         sources = _make_minimal_sources(seances=seances)
         anomalies = completude.rule_R1_2_maquette_incomplete(sources)
-        assert len(anomalies) == 1
-        # LV2 → MINEUR (optionnel)
-        assert anomalies[0].severity == Severity.MINEUR
-        assert anomalies[0].details["lv2_optionnel"] is True
+        assert len(anomalies) == 0
 
     def test_module_manquant_shes_detecte_majeur(self):
         seances = pd.DataFrame([{
@@ -752,3 +750,190 @@ class TestAuditIntegration:
         assert "severity" in df.columns
         assert "foo" in df.columns  # détails fusionnés
         assert df["foo"].iloc[0] == "bar"
+
+
+# ─────────────────────────────────────────────────────────────
+# Exactitude — R2 déduplication groupes parallèles
+# ─────────────────────────────────────────────────────────────
+
+class TestExactitudeParalleleDedup:
+
+    def _maquette_info633(self, cm_h=0.0, td_h=0.0, tp_h=20.0):
+        return pd.DataFrame([{
+            "code_module": "INFO633_IDU", "nom": "X", "ects": 1.0,
+            "cm_h": cm_h, "td_h": td_h, "tp_h": tp_h,
+            "total_h": cm_h + td_h + tp_h,
+        }])
+
+    def test_heures_groupes_paralleles_meme_horaire_non_dupliquees(self):
+        """G1 + G2 même horaire → comptés comme 1 seule séance."""
+        same_start = pd.Timestamp("2024-09-10 08:00", tz="UTC")
+        same_end   = pd.Timestamp("2024-09-10 12:00", tz="UTC")
+        seances = pd.DataFrame([
+            _seance(title_original="INFO633A01G1", code_prefix="INFO633",
+                    code_maquette="INFO633_IDU", type_seance="TP",
+                    is_parallel_grp=True, duration_h=4.0,
+                    starts_utc=same_start, ends_utc=same_end),
+            _seance(title_original="INFO633A01G2", code_prefix="INFO633",
+                    code_maquette="INFO633_IDU", type_seance="TP",
+                    is_parallel_grp=True, duration_h=4.0,
+                    starts_utc=same_start, ends_utc=same_end),
+        ])
+        sources = _make_minimal_sources(
+            maquette=self._maquette_info633(tp_h=4.0), seances=seances,
+        )
+        anos = exactitude.rule_R2_ecart_heures_par_type(sources)
+        # 4h prévu, 4h ADE après dedup → aucune anomalie
+        assert anos == []
+
+    def test_heures_groupes_paralleles_horaires_differents_comptes_deux_fois(self):
+        """G1 lundi + G2 mercredi → 2 créneaux réels, comptés 2 fois."""
+        seances = pd.DataFrame([
+            _seance(title_original="INFO633A01G1", code_prefix="INFO633",
+                    code_maquette="INFO633_IDU", type_seance="TP",
+                    is_parallel_grp=True, duration_h=4.0,
+                    starts_utc=pd.Timestamp("2024-09-09 08:00", tz="UTC"),
+                    ends_utc=pd.Timestamp("2024-09-09 12:00", tz="UTC")),
+            _seance(title_original="INFO633A01G2", code_prefix="INFO633",
+                    code_maquette="INFO633_IDU", type_seance="TP",
+                    is_parallel_grp=True, duration_h=4.0,
+                    starts_utc=pd.Timestamp("2024-09-11 08:00", tz="UTC"),
+                    ends_utc=pd.Timestamp("2024-09-11 12:00", tz="UTC")),
+        ])
+        sources = _make_minimal_sources(
+            maquette=self._maquette_info633(tp_h=8.0), seances=seances,
+        )
+        anos = exactitude.rule_R2_ecart_heures_par_type(sources)
+        # 8h prévu, 8h ADE (2 créneaux distincts) → 0 anomalie
+        assert anos == []
+
+
+# ─────────────────────────────────────────────────────────────
+# Exactitude — R2.4 incohérence durée/type TP
+# ─────────────────────────────────────────────────────────────
+
+class TestExactitudeR24TpDureeCourte:
+
+    def test_tp_moins_4h_mineur(self):
+        seances = pd.DataFrame([
+            _seance(title_original="INFO631_TP", type_seance="TP", duration_h=2.0),
+        ])
+        sources = _make_minimal_sources(seances=seances)
+        anos = exactitude.rule_R2_4_tp_duree_courte(sources)
+        assert len(anos) == 1
+        assert anos[0].rule_id == "R2.4"
+        assert anos[0].severity == Severity.MINEUR
+        assert anos[0].details["duration_h"] == 2.0
+
+    def test_tp_exactement_4h_ok(self):
+        seances = pd.DataFrame([
+            _seance(title_original="INFO631_TP", type_seance="TP", duration_h=4.0),
+        ])
+        sources = _make_minimal_sources(seances=seances)
+        anos = exactitude.rule_R2_4_tp_duree_courte(sources)
+        assert anos == []
+
+    def test_cm_moins_4h_ok(self):
+        """CM courts = normal — règle ne s'applique qu'aux TP."""
+        seances = pd.DataFrame([
+            _seance(type_seance="CM", duration_h=1.5),
+        ])
+        sources = _make_minimal_sources(seances=seances)
+        anos = exactitude.rule_R2_4_tp_duree_courte(sources)
+        assert anos == []
+
+
+# ─────────────────────────────────────────────────────────────
+# Exactitude — R2.5 séance sans enseignant (asymétrique)
+# ─────────────────────────────────────────────────────────────
+
+class TestExactitudeR25SansEnseignant:
+
+    def test_cm_sans_enseignant_bloquant(self):
+        seances = pd.DataFrame([
+            _seance(type_seance="CM", enseignants=[]),
+        ])
+        sources = _make_minimal_sources(seances=seances)
+        anos = exactitude.rule_R2_5_seance_sans_enseignant(sources)
+        assert len(anos) == 1
+        assert anos[0].rule_id == "R2.5"
+        assert anos[0].severity == Severity.BLOQUANT
+
+    def test_td_sans_enseignant_ignore(self):
+        """TD sans enseignant = auto-formation normale."""
+        seances = pd.DataFrame([
+            _seance(title_original="INFO631_TD", type_seance="TD", enseignants=[]),
+        ])
+        sources = _make_minimal_sources(seances=seances)
+        anos = exactitude.rule_R2_5_seance_sans_enseignant(sources)
+        assert anos == []
+
+    def test_tp_sans_enseignant_mineur(self):
+        seances = pd.DataFrame([
+            _seance(title_original="INFO631_TP", type_seance="TP", enseignants=[]),
+        ])
+        sources = _make_minimal_sources(seances=seances)
+        anos = exactitude.rule_R2_5_seance_sans_enseignant(sources)
+        assert len(anos) == 1
+        assert anos[0].severity == Severity.MINEUR
+
+    def test_cm_avec_enseignant_ok(self):
+        seances = pd.DataFrame([
+            _seance(type_seance="CM", enseignants=["DUPONT"]),
+        ])
+        sources = _make_minimal_sources(seances=seances)
+        anos = exactitude.rule_R2_5_seance_sans_enseignant(sources)
+        assert anos == []
+
+
+# ─────────────────────────────────────────────────────────────
+# Cohérence — R3.4 possible mauvais tag TD/TP
+# ─────────────────────────────────────────────────────────────
+
+class TestCoherenceR34MauvaisTagTdTp:
+
+    def _maq(self, cm_h=0.0, td_h=10.0, tp_h=20.0):
+        return pd.DataFrame([{
+            "code_module": "INFO631_IDU", "nom": "X", "ects": 1.0,
+            "cm_h": cm_h, "td_h": td_h, "tp_h": tp_h,
+            "total_h": cm_h + td_h + tp_h,
+        }])
+
+    def test_exces_td_correspond_manque_tp_detecte(self):
+        """tph_maq=20, tdh_maq=10, ADE TD=30 TP=0 → excedent_td=20 ≈ tph_maq → MINEUR."""
+        seances = pd.DataFrame([
+            _seance(title_original="INFO631_TD", type_seance="TD", duration_h=30.0,
+                    starts_utc=pd.Timestamp("2024-09-09 08:00", tz="UTC"),
+                    ends_utc=pd.Timestamp("2024-09-10 14:00", tz="UTC")),
+        ])
+        sources = _make_minimal_sources(maquette=self._maq(), seances=seances)
+        anos = coherence.rule_R3_4_possible_mauvais_tag_td_tp(sources)
+        assert len(anos) == 1
+        assert anos[0].rule_id == "R3.4"
+        assert anos[0].severity == Severity.MINEUR
+        assert anos[0].code_module == "INFO631_IDU"
+
+    def test_exces_td_sans_manque_tp_ignore(self):
+        """ADE TP=20 → heures_tp_ade != 0 → règle ne déclenche pas."""
+        seances = pd.DataFrame([
+            _seance(title_original="INFO631_TD", type_seance="TD", duration_h=15.0,
+                    starts_utc=pd.Timestamp("2024-09-09 08:00", tz="UTC"),
+                    ends_utc=pd.Timestamp("2024-09-09 23:00", tz="UTC")),
+            _seance(title_original="INFO631_TP", type_seance="TP", duration_h=20.0,
+                    starts_utc=pd.Timestamp("2024-09-12 08:00", tz="UTC"),
+                    ends_utc=pd.Timestamp("2024-09-13 04:00", tz="UTC")),
+        ])
+        sources = _make_minimal_sources(maquette=self._maq(), seances=seances)
+        anos = coherence.rule_R3_4_possible_mauvais_tag_td_tp(sources)
+        assert anos == []
+
+    def test_ecart_trop_grand_ignore(self):
+        """tph_maq=20, excedent_td=4 → abs(4-20)=16 > 2 → 0 anomalie."""
+        seances = pd.DataFrame([
+            _seance(title_original="INFO631_TD", type_seance="TD", duration_h=14.0,
+                    starts_utc=pd.Timestamp("2024-09-09 08:00", tz="UTC"),
+                    ends_utc=pd.Timestamp("2024-09-09 22:00", tz="UTC")),
+        ])
+        sources = _make_minimal_sources(maquette=self._maq(), seances=seances)
+        anos = coherence.rule_R3_4_possible_mauvais_tag_td_tp(sources)
+        assert anos == []

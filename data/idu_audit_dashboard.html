@@ -1,0 +1,281 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans)}
+.tabs{display:flex;gap:4px;margin-bottom:1.5rem;border-bottom:0.5px solid var(--color-border-tertiary);padding-bottom:0}
+.tab{padding:8px 16px;font-size:13px;cursor:pointer;border:none;background:none;color:var(--color-text-secondary);border-bottom:2px solid transparent;margin-bottom:-1px}
+.tab.active{color:var(--color-text-primary);font-weight:500;border-bottom:2px solid #534AB7}
+.section{display:none}.section.active{display:block}
+.metric-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:1.5rem}
+.metric{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:1rem;text-align:center}
+.metric-label{font-size:12px;color:var(--color-text-secondary);margin-bottom:4px}
+.metric-value{font-size:24px;font-weight:500}
+.metric-value.ok{color:#0F6E56}.metric-value.warn{color:#BA7517}.metric-value.danger{color:#A32D2D}
+.anomaly-row{display:grid;grid-template-columns:auto 1fr auto auto;gap:8px;align-items:center;padding:8px 0;border-bottom:0.5px solid var(--color-border-tertiary);font-size:13px}
+.anomaly-row:last-child{border-bottom:none}
+.badge{font-size:11px;padding:2px 8px;border-radius:var(--border-radius-md);font-weight:500;white-space:nowrap}
+.b-block{background:#FCEBEB;color:#A32D2D}.b-major{background:#FAEEDA;color:#854F0B}.b-minor{background:#EAF3DE;color:#3B6D11}
+.section-title{font-size:15px;font-weight:500;color:var(--color-text-primary);margin-bottom:12px;margin-top:20px}
+.section-title:first-child{margin-top:0}
+.bar-wrap{display:flex;align-items:center;gap:8px;margin-bottom:6px;font-size:12px}
+.bar-label{width:130px;color:var(--color-text-secondary);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:right}
+.bar-track{flex:1;height:14px;background:var(--color-background-secondary);border-radius:4px;overflow:hidden}
+.bar-fill{height:100%;border-radius:4px;transition:width 0.3s}
+.bar-val{width:50px;text-align:left;color:var(--color-text-primary)}
+.score-ring{display:flex;flex-direction:column;align-items:center;justify-content:center}
+.dim-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem;margin-bottom:8px}
+.dim-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.dim-name{font-size:13px;font-weight:500}
+.dim-score{font-size:20px;font-weight:500}
+.progress-bar{height:6px;background:var(--color-background-secondary);border-radius:3px;overflow:hidden;margin-bottom:4px}
+.progress-fill{height:100%;border-radius:3px}
+.dim-detail{font-size:12px;color:var(--color-text-secondary)}
+.filter-row{display:flex;gap:8px;margin-bottom:1rem;flex-wrap:wrap}
+.filter-btn{padding:4px 12px;font-size:12px;border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-md);cursor:pointer;background:none;color:var(--color-text-secondary)}
+.filter-btn.active{background:var(--color-background-secondary);color:var(--color-text-primary);font-weight:500}
+.seq-row{padding:8px 0;border-bottom:0.5px solid var(--color-border-tertiary);font-size:12px;display:grid;grid-template-columns:110px 1fr;gap:8px}
+.seq-row:last-child{border-bottom:none}
+.mini-label{font-size:11px;color:var(--color-text-tertiary)}
+</style>
+
+<h2 class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden">Tableau de bord d'audit qualité des données IDU — 6 modules manquants dans ADE, 46 écarts d'heures, 50 violations de séquencement détectés.</h2>
+
+<div style="padding:1rem 0">
+<div class="tabs">
+  <button class="tab active" onclick="switchTab('overview')">Vue générale</button>
+  <button class="tab" onclick="switchTab('hours')">Écarts horaires</button>
+  <button class="tab" onclick="switchTab('seq')">Séquencement</button>
+  <button class="tab" onclick="switchTab('anomalies')">Toutes anomalies</button>
+</div>
+
+<div id="overview" class="section active">
+  <div class="metric-grid">
+    <div class="metric"><div class="metric-label">Modules maquette</div><div class="metric-value">36</div></div>
+    <div class="metric"><div class="metric-label">Modules absents ADE</div><div class="metric-value danger">6</div></div>
+    <div class="metric"><div class="metric-label">Violations séquencement</div><div class="metric-value danger">50</div></div>
+    <div class="metric"><div class="metric-label">Écarts horaires (&gt;15%)</div><div class="metric-value warn">46</div></div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:1.5rem">
+    <div>
+      <div class="section-title">Score qualité par dimension</div>
+      <div class="dim-card">
+        <div class="dim-header"><span class="dim-name">Complétude</span><span class="dim-score" style="color:#A32D2D">67%</span></div>
+        <div class="progress-bar"><div class="progress-fill" style="width:67%;background:#E24B4A"></div></div>
+        <div class="dim-detail">6 modules sans aucune séance ADE identifiable</div>
+      </div>
+      <div class="dim-card">
+        <div class="dim-header"><span class="dim-name">Exactitude</span><span class="dim-score" style="color:#BA7517">57%</span></div>
+        <div class="progress-bar"><div class="progress-fill" style="width:57%;background:#EF9F27"></div></div>
+        <div class="dim-detail">46 combinaisons module/type avec écart &gt;15%</div>
+      </div>
+      <div class="dim-card">
+        <div class="dim-header"><span class="dim-name">Conformité (séquencement)</span><span class="dim-score" style="color:#A32D2D">52%</span></div>
+        <div class="progress-bar"><div class="progress-fill" style="width:52%;background:#E24B4A"></div></div>
+        <div class="dim-detail">50 violations de dépendance pédagogique sur 315</div>
+      </div>
+      <div class="dim-card">
+        <div class="dim-header"><span class="dim-name">Cohérence (responsables)</span><span class="dim-score" style="color:#0F6E56">97%</span></div>
+        <div class="progress-bar"><div class="progress-fill" style="width:97%;background:#1D9E75"></div></div>
+        <div class="dim-detail">1 module sans responsable (PROJ901_PACY)</div>
+      </div>
+      <div class="dim-card">
+        <div class="dim-header"><span class="dim-name">Unicité (chevauchements)</span><span class="dim-score" style="color:#0F6E56">100%</span></div>
+        <div class="progress-bar"><div class="progress-fill" style="width:100%;background:#1D9E75"></div></div>
+        <div class="dim-detail">Aucun conflit de salle ou enseignant détecté</div>
+      </div>
+    </div>
+    <div>
+      <div class="section-title">Modules absents dans ADE</div>
+      ${['INFO634_IDU','INFO733_IDU','INFO931_IDU','INFO932_IDU','PROJ901_PACY','PROJ931_IDU'].map(c=>`
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:0.5px solid var(--color-border-tertiary);font-size:13px">
+        <span style="font-family:var(--font-mono);font-size:12px">${c}</span>
+        <span class="badge b-block">bloquant</span>
+      </div>`).join('')}
+      <div style="margin-top:1.5rem">
+      <div class="section-title">Répartition anomalies par criticité</div>
+      <div style="position:relative;width:100%;height:180px"><canvas id="pieChart" role="img" aria-label="Répartition des anomalies: 6 bloquantes, 40 majeures, 50 mineures">6 anomalies bloquantes, 40 majeures, 50 mineures de séquencement.</canvas></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="hours" class="section">
+  <div class="section-title">Top 15 écarts horaires maquette vs ADE</div>
+  <div class="filter-row">
+    <button class="filter-btn active" onclick="filterHours('all',this)">Tous</button>
+    <button class="filter-btn" onclick="filterHours('CM',this)">CM</button>
+    <button class="filter-btn" onclick="filterHours('TD',this)">TD</button>
+    <button class="filter-btn" onclick="filterHours('TP',this)">TP</button>
+  </div>
+  <div id="hours-chart" style="position:relative;width:100%;height:520px"><canvas id="hoursBar" role="img" aria-label="Écarts horaires par module">Données d'écarts horaires.</canvas></div>
+</div>
+
+<div id="seq" class="section">
+  <div class="section-title">Violations de séquencement pédagogique (top 20)</div>
+  <p style="font-size:13px;color:var(--color-text-secondary);margin-bottom:1rem">Un TD ou TP planifié <em>avant</em> le CM dont il dépend selon <code>dependance_sequence_IDU.json</code>.</p>
+  <div id="seq-list"></div>
+</div>
+
+<div id="anomalies" class="section">
+  <div class="filter-row">
+    <button class="filter-btn active" onclick="filterAnom('all',this)">Toutes</button>
+    <button class="filter-btn" onclick="filterAnom('bloquant',this)">Bloquantes</button>
+    <button class="filter-btn" onclick="filterAnom('majeur',this)">Majeures</button>
+    <button class="filter-btn" onclick="filterAnom('mineur',this)">Mineures</button>
+  </div>
+  <div id="anom-list"></div>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+function switchTab(id){
+  document.querySelectorAll('.tab').forEach((t,i)=>{t.classList.toggle('active',['overview','hours','seq','anomalies'][i]===id)});
+  document.querySelectorAll('.section').forEach(s=>{s.classList.toggle('active',s.id===id)});
+  if(id==='hours'&&!window.hoursBuilt){buildHoursChart();window.hoursBuilt=true}
+  if(id==='seq'&&!window.seqBuilt){buildSeqList();window.seqBuilt=true}
+  if(id==='anomalies'&&!window.anomBuilt){buildAnomList();window.anomBuilt=true}
+}
+
+const anomalies=[
+  {code:'INFO634_IDU',dim:'Complétude',desc:'0 séance ADE pour un module avec 9h CM + 21h TD + 8h TP planifiés',crit:'bloquant'},
+  {code:'INFO733_IDU',dim:'Complétude',desc:'0 séance ADE pour un module avec 18h CM + 16h TD + 4h TP planifiés',crit:'bloquant'},
+  {code:'INFO931_IDU',dim:'Complétude',desc:'0 séance ADE identifiable (12h CM + 12h TD + 16h TP)',crit:'bloquant'},
+  {code:'INFO932_IDU',dim:'Complétude',desc:'0 séance ADE identifiable (7.5h CM + 7.5h TD + 24h TP)',crit:'bloquant'},
+  {code:'PROJ931_IDU',dim:'Complétude',desc:'0 séance ADE identifiable (40h TP)',crit:'bloquant'},
+  {code:'PROJ901_PACY',dim:'Complétude + Responsable',desc:'Absent ADE et aucun responsable assigné',crit:'bloquant'},
+  {code:'INFO501_PACY TD',dim:'Exactitude',desc:'Planifié 10.5h, ADE = 30.5h (+190%). Probable duplication inter-promotions.',crit:'majeur'},
+  {code:'INFO633_IDU TD',dim:'Exactitude',desc:'Planifié 13.5h, ADE = 32h (+137%). Séances en double dans ADE.',crit:'majeur'},
+  {code:'INFO631_IDU TP',dim:'Exactitude',desc:'Planifié 20h, ADE = 40h (+100%). Double comptage groupes G1/G2.',crit:'majeur'},
+  {code:'INFO632_IDU TP',dim:'Exactitude',desc:'Planifié 16h, ADE = 32h (+100%). Double comptage groupes.',crit:'majeur'},
+  {code:'ISOC631_IDU TP',dim:'Exactitude',desc:'Planifié 12h, ADE = 24h (+100%). Double comptage groupes.',crit:'majeur'},
+  {code:'DATA831_IDU TD',dim:'Exactitude',desc:'0h TD planifié dans maquette, ADE montre 12h de TD. Incohérence de type de séance.',crit:'majeur'},
+  {code:'INFO731_IDU TP',dim:'Exactitude',desc:'Planifié 4h TP, ADE = 0h. Séances manquantes ou mal codées.',crit:'majeur'},
+  {code:'ISOC731_IDU TP',dim:'Exactitude',desc:'Planifié 4h TP, ADE = 0h. Séances manquantes ou mal codées.',crit:'majeur'},
+  {code:'INFO632_IDU',dim:'Conformité',desc:'CM #7 (2026-04-22) planifié après TD #7 (2026-04-22). Violation même jour.',crit:'mineur'},
+  {code:'INFO632_IDU',dim:'Conformité',desc:'CM #6 (2026-04-20) planifié après TD #6 (2026-04-17). TD avant CM.',crit:'majeur'},
+  {code:'INFO731_IDU',dim:'Conformité',desc:'CM #7 (2025-11-10) planifié après TD #6 (2025-10-23). 18 jours d\'écart.',crit:'majeur'},
+  {code:'DATA731_IDU',dim:'Conformité',desc:'CM #6 (2025-12-10) planifié après TP #3 (2025-11-20).',crit:'majeur'},
+  {code:'DATA731_IDU',dim:'Conformité',desc:'CM #3 (2025-11-07) planifié après TP #1 (2025-11-05).',crit:'mineur'},
+  {code:'INFO833_IDU',dim:'Conformité',desc:'CM #7 (2026-03-31) planifié après TD #7 (2026-03-24).',crit:'mineur'},
+  {code:'INFO831_IDU',dim:'Conformité',desc:'CM #1 (2026-01-26) planifié après TD #1 (2026-01-23).',crit:'majeur'},
+];
+
+const seqViolations=[
+  {mod:'INFO632_IDU',prec:'CM #7',suiv:'TD #7',d1:'2026-04-22',d2:'2026-04-22',delta:0},
+  {mod:'INFO632_IDU',prec:'CM #6',suiv:'TD #6',d1:'2026-04-20',d2:'2026-04-17',delta:-3},
+  {mod:'INFO731_IDU',prec:'CM #7',suiv:'TD #6',d1:'2025-11-10',d2:'2025-10-23',delta:-18},
+  {mod:'DATA731_IDU',prec:'CM #6',suiv:'TP #3',d1:'2025-12-10',d2:'2025-11-20',delta:-20},
+  {mod:'DATA731_IDU',prec:'CM #3',suiv:'TP #1',d1:'2025-11-07',d2:'2025-11-05',delta:-2},
+  {mod:'INFO833_IDU',prec:'CM #7',suiv:'TD #7',d1:'2026-03-31',d2:'2026-03-24',delta:-7},
+  {mod:'INFO833_IDU',prec:'CM #6',suiv:'TD #6',d1:'2026-03-19',d2:'2026-03-17',delta:-2},
+  {mod:'INFO831_IDU',prec:'CM #4',suiv:'TD #4',d1:'2026-02-11',d2:'2026-02-06',delta:-5},
+  {mod:'INFO831_IDU',prec:'CM #2',suiv:'TD #2',d1:'2026-01-28',d2:'2026-01-26',delta:-2},
+  {mod:'INFO831_IDU',prec:'CM #1',suiv:'TD #1',d1:'2026-01-26',d2:'2026-01-23',delta:-3},
+  {mod:'ISOC631_IDU',prec:'CM #9',suiv:'TD #9',d1:'2026-01-15',d2:'2026-01-13',delta:-2},
+  {mod:'ISOC631_IDU',prec:'CM #8',suiv:'TD #8',d1:'2026-01-08',d2:'2026-01-06',delta:-2},
+  {mod:'DATA832_IDU',prec:'CM #4',suiv:'TD #4',d1:'2026-02-19',d2:'2026-02-17',delta:-2},
+  {mod:'DATA832_IDU',prec:'CM #3',suiv:'TD #3',d1:'2026-02-05',d2:'2026-02-03',delta:-2},
+  {mod:'INFO834_IDU',prec:'CM #3',suiv:'TD #3',d1:'2026-03-12',d2:'2026-03-10',delta:-2},
+  {mod:'INFO834_IDU',prec:'CM #2',suiv:'TD #2',d1:'2026-02-26',d2:'2026-02-24',delta:-2},
+  {mod:'INFO832_IDU',prec:'CM #5',suiv:'TD #5',d1:'2026-03-26',d2:'2026-03-24',delta:-2},
+  {mod:'DATA931_IDU',prec:'CM #4',suiv:'TD #4',d1:'2026-04-16',d2:'2026-04-14',delta:-2},
+  {mod:'INFO931_IDU',prec:'CM #2',suiv:'TD #2',d1:'2026-02-26',d2:'2026-02-24',delta:-2},
+  {mod:'INFO932_IDU',prec:'CM #3',suiv:'TD #3',d1:'2026-03-19',d2:'2026-03-17',delta:-2},
+];
+
+const hoursData=[
+  {code:'INFO501_PACY',type:'TD',planned:10.5,ade:30.5,pct:190},
+  {code:'INFO633_IDU',type:'TD',planned:13.5,ade:32,pct:137},
+  {code:'DATA831_IDU',type:'TD',planned:0,ade:12,pct:100},
+  {code:'INFO631_IDU',type:'TP',planned:20,ade:40,pct:100},
+  {code:'INFO632_IDU',type:'TP',planned:16,ade:32,pct:100},
+  {code:'ISOC631_IDU',type:'TP',planned:12,ade:24,pct:100},
+  {code:'PROJ531_IDU',type:'TP',planned:28,ade:56,pct:100},
+  {code:'INFO731_IDU',type:'TP',planned:4,ade:0,pct:100},
+  {code:'ISOC731_IDU',type:'TP',planned:4,ade:0,pct:100},
+  {code:'INFO634_IDU',type:'CM',planned:9,ade:0,pct:100},
+  {code:'DATA731_IDU',type:'TP',planned:24,ade:36,pct:50},
+  {code:'DATA732_IDU',type:'CM',planned:12,ade:18,pct:50},
+  {code:'MATH531_IDU',type:'TD',planned:12,ade:17.5,pct:46},
+  {code:'INFO832_IDU',type:'CM',planned:12,ade:17.5,pct:46},
+  {code:'ISOC531_IDU',type:'TP',planned:4,ade:8,pct:100},
+];
+
+let hoursFilter='all';
+let anomFilter='all';
+let hoursChart=null;
+
+function buildHoursChart(){
+  const filtered=hoursFilter==='all'?hoursData:hoursData.filter(d=>d.type===hoursFilter);
+  const labels=filtered.map(d=>d.code+' '+d.type);
+  const planned=filtered.map(d=>d.planned);
+  const ade=filtered.map(d=>d.ade);
+  const ctx=document.getElementById('hoursBar').getContext('2d');
+  if(hoursChart){hoursChart.destroy()}
+  document.getElementById('hours-chart').style.height=Math.max(300,filtered.length*40+80)+'px';
+  hoursChart=new Chart(ctx,{
+    type:'bar',
+    data:{labels,datasets:[
+      {label:'Maquette (planifié)',data:planned,backgroundColor:'#B5D4F4',borderColor:'#378ADD',borderWidth:1},
+      {label:'ADE (réel)',data:ade,backgroundColor:'#F5C4B3',borderColor:'#D85A30',borderWidth:1}
+    ]},
+    options:{
+      indexAxis:'y',responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false}},
+      scales:{x:{title:{display:true,text:'heures'}},y:{ticks:{font:{size:11}}}}
+    }
+  });
+}
+
+function filterHours(type,btn){
+  hoursFilter=type;
+  document.querySelectorAll('#hours .filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  buildHoursChart();
+}
+
+function buildSeqList(){
+  const el=document.getElementById('seq-list');
+  el.innerHTML=seqViolations.slice(0,20).map(v=>`
+  <div class="seq-row">
+    <div><span style="font-family:var(--font-mono);font-size:11px;color:var(--color-text-secondary)">${v.mod}</span></div>
+    <div>
+      <span class="badge b-block" style="margin-right:6px">${v.delta===0?'même jour':v.delta+'j'}</span>
+      <span style="color:var(--color-text-secondary)">${v.prec}</span>
+      <span style="color:var(--color-text-tertiary);margin:0 4px">→</span>
+      <span style="color:var(--color-text-secondary)">${v.suiv}</span>
+      <div class="mini-label" style="margin-top:3px">${v.suiv} planifié le ${v.d2}, ${v.prec} planifié le ${v.d1}</div>
+    </div>
+  </div>`).join('');
+}
+
+function buildAnomList(){renderAnomList()}
+function filterAnom(type,btn){
+  anomFilter=type;
+  document.querySelectorAll('#anomalies .filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderAnomList();
+}
+function renderAnomList(){
+  const el=document.getElementById('anom-list');
+  const filtered=anomFilter==='all'?anomalies:anomalies.filter(a=>a.crit===anomFilter);
+  el.innerHTML=filtered.map(a=>`
+  <div class="anomaly-row">
+    <span class="badge b-${a.crit}">${a.crit}</span>
+    <div><span style="font-family:var(--font-mono);font-size:11px;color:var(--color-text-secondary)">${a.code}</span> — <span style="color:var(--color-text-primary)">${a.desc}</span></div>
+    <span style="font-size:11px;color:var(--color-text-tertiary)">${a.dim}</span>
+  </div>`).join('');
+}
+
+new Chart(document.getElementById('pieChart').getContext('2d'),{
+  type:'doughnut',
+  data:{
+    labels:['Bloquantes','Majeures','Mineures'],
+    datasets:[{data:[6,40,50],backgroundColor:['#E24B4A','#EF9F27','#639922'],borderWidth:0}]
+  },
+  options:{responsive:true,maintainAspectRatio:false,cutout:'60%',
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.raw}}}}
+});
+</script>

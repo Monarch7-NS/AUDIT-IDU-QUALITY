@@ -8,33 +8,6 @@ Pipeline d'audit de qualité des données pédagogiques de la filière IDU.
 
 ## Structure du projet
 
-```
-audit-idu-qualite/
-├── src/
-│   ├── parsers/          # Ingestion des sources hétérogènes
-│   │   ├── maquette.py   # MAQUETTE_IDU.json
-│   │   ├── ade.py        # ADECal_IDU3/4/5.json
-│   │   ├── responsables.py
-│   │   ├── dependances.py
-│   │   └── moodle.py     # Résumé Moodle IDU.html
-│   └── rules/            # Moteur de règles qualité
-│       ├── engine.py     # Orchestrateur principal
-│       ├── completeness.py
-│       ├── exactitude.py
-│       ├── sequencing.py
-│       ├── overlaps.py
-│       └── responsables.py
-├── app/
-│   └── dashboard.py      # Dashboard Streamlit interactif
-├── tests/
-│   ├── test_parsers.py
-│   └── test_rules.py
-├── data/                 # Fichiers sources (non versionnés)
-├── output/               # Rapports générés (non versionnés)
-├── .github/workflows/ci.yml
-├── Makefile
-└── requirements.txt
-```
 
 ## Installation
 

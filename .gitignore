@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Outputs générés
+output/
+htmlcov/
+.coverage
+
+# Données sources (partagées autrement, pas sur Git)
+data/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# MacOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Pytest
+.pytest_cache/

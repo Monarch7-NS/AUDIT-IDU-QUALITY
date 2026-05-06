@@ -4,6 +4,7 @@ Reads ADE calendar exports, normalises titles into canonical module codes,
 extracts session type (CM/TD/TP), teachers, and computes duration.
 """
 
+from __future__ import annotations
 import json
 import re
 from pathlib import Path

@@ -42,18 +42,28 @@ MAQUETTE_SAMPLE = [
 
 DEPENDANCES_SAMPLE = [
     {
-        "module_precedent": "INFO631_IDU",
-        "type_precedent": "CM",
-        "numero_precedent": 1,
-        "module_suivant": "INFO631_IDU",
-        "type_suivant": "TD",
-        "numero_suivant": 1,
+        "type": "table",
+        "data": [
+            {
+                "module_precedent": "INFO631_IDU",
+                "type_precedent": "CM",
+                "numero_precedent": 1,
+                "module_suivant": "INFO631_IDU",
+                "type_suivant": "TD",
+                "numero_suivant": 1,
+            }
+        ],
     }
 ]
 
 RESPONSABLES_SAMPLE = [
-    {"code_module": "INFO631_IDU", "nom": "Dupont", "prenom": "Alice"},
-    {"code_module": "DATA501_IDU", "nom": "Martin", "prenom": "Bob"},
+    {
+        "type": "table",
+        "data": [
+            {"code_module": "INFO631_IDU", "nom": "Dupont", "prenom": "Alice"},
+            {"code_module": "DATA501_IDU", "nom": "Martin", "prenom": "Bob"},
+        ],
+    }
 ]
 
 
@@ -164,7 +174,8 @@ class TestParseResponsables:
 
     def test_correct_values(self, tmp_responsables):
         result = parse_responsables(tmp_responsables)
-        assert "Dupont" in result["INFO631_IDU"] or "Alice" in result["INFO631_IDU"]
+        assert result["INFO631_IDU"]["nom"] == "Dupont"
+        assert result["INFO631_IDU"]["prenom"] == "Alice"
 
     def test_empty_file(self, tmp_path):
         p = tmp_path / "empty.json"

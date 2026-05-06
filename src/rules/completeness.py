@@ -5,7 +5,7 @@ session in ADE. Modules with 0 planned hours of a given type
 are exempt for that type.
 """
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 
 @dataclass

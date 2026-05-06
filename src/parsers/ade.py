@@ -7,7 +7,7 @@ extracts session type (CM/TD/TP), teachers, and computes duration.
 import json
 import re
 from pathlib import Path
-from datetime import datetime
+
 from dateutil import parser as dateparser
 
 

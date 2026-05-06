@@ -24,13 +24,13 @@ for boite in boites_de_cours:
     lien_tag = balise_titre.find('a') if balise_titre else None
     titre = lien_tag.text.strip() if lien_tag else "Titre inconnu"
     lien = lien_tag['href'] if lien_tag else "Pas de lien"
-    
+
     # Extraction Categorie
     balise_cat = boite.find('div', class_='coursecat')
     lien_cat = balise_cat.find('a') if balise_cat else None
     categorie = lien_cat.text.strip() if lien_cat else "Non catégorisé"
-    
-    # Extraction Professeurs 
+
+    # Extraction Professeurs
     balise_profs = boite.find('ul', class_='teachers')
     professeurs = []
     if balise_profs:
@@ -38,12 +38,12 @@ for boite in boites_de_cours:
             nom_prof = li.find('a').text.strip()
             professeurs.append(nom_prof)
     liste_profs_texte = ", ".join(professeurs) if professeurs else "Aucun professeur renseigné"
-            
+
     # Extraction Description
     balise_resume = boite.find('div', class_='summary')
     description = balise_resume.text.strip() if balise_resume else "Aucune description"
     texte_nettoye = " ".join(description.split())
-    
+
     liste_des_cours.append({
         "Titre_du_Cours": titre,
         "Categorie": categorie,

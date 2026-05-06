@@ -6,7 +6,6 @@ verify that session A is scheduled before session B in ADE.
 
 from dataclasses import dataclass
 from collections import defaultdict
-from datetime import datetime
 
 
 @dataclass

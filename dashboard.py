@@ -1,210 +1,491 @@
-import streamlit as st
-import pandas as pd
+"""
+Unified Streamlit dashboard — Audit IDU Qualité Pédagogique.
+
+Merges:
+- RAR pipeline (src/parsers + src/rules/engine) → structured audit_report.json
+- Houssam's sequence DAG analysis (src/audit_sequence_dag) → graph visualizations
+
+Run:
+    streamlit run dashboard.py
+Or via Makefile:
+    make run
+"""
+
 import json
-import plotly.graph_objects as go
-import plotly.express as px
+from collections import defaultdict
+from pathlib import Path
+
 import networkx as nx
 import numpy as np
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+import streamlit as st
 
-st.set_page_config(page_title="Audit Qualité IDU", page_icon="🛡️", layout="wide")
+# ---------------------------------------------------------------------------
+# Config
+# ---------------------------------------------------------------------------
+st.set_page_config(
+    page_title="Audit IDU — Qualité des données",
+    page_icon="🛡️",
+    layout="wide",
+)
 
-# --- DATA LOADING ---
-@st.cache_data
-def load_data():
-    # Charger l'ancien JSON (qui contient les 6 dimensions et exactitude/cohérence/unicité)
-    with open('data/audit_output.json', 'r', encoding='utf-8') as f:
-        general_audit_json = json.load(f)
-        
-    # Charger le nouveau JSON généré par l'analyse de graphe (Chronologie, Inversions, Orphelines, Structure)
-    try:
-        with open('data/audit/audit_output.json', 'r', encoding='utf-8') as f:
-            sequence_audit_json = json.load(f)
-    except FileNotFoundError:
-        sequence_audit_json = {}
-        
-    df_exactitude = pd.read_csv('data/audit/exactitude.csv')
-    
-    with open('data/dependance_sequence_IDU.json', 'r', encoding='utf-8') as f:
-        seq_data = json.load(f)
-        seq_list = []
-        for item in seq_data:
-            if isinstance(item, list):
-                for sub in item:
-                    if isinstance(sub, dict) and sub.get('name') == 'MAQUETTE_dependance_sequence':
-                        seq_list = sub.get('data', [])
-                        break
-            elif isinstance(item, dict) and item.get('name') == 'MAQUETTE_dependance_sequence':
-                seq_list = item.get('data', [])
+DATA_DIR = Path("data")
+OUTPUT_DIR = Path("output")
+REPORT_PATH = OUTPUT_DIR / "audit_report.json"
+SEQ_REPORT_PATH = DATA_DIR / "audit" / "audit_output.json"
+
+
+# ---------------------------------------------------------------------------
+# Data loading
+# ---------------------------------------------------------------------------
+
+@st.cache_data(show_spinner="Chargement du rapport d'audit…")
+def load_report() -> dict:
+    if REPORT_PATH.exists():
+        with open(REPORT_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    # Generate on the fly
+    from src.rules.engine import run_audit
+    return run_audit(DATA_DIR, OUTPUT_DIR)
+
+
+@st.cache_data(show_spinner="Chargement de l'analyse de séquencement…")
+def load_sequence_report() -> dict:
+    if SEQ_REPORT_PATH.exists():
+        with open(SEQ_REPORT_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+@st.cache_data(show_spinner="Chargement des dépendances…")
+def load_dependances() -> pd.DataFrame:
+    dep_path = DATA_DIR / "dependance_sequence_IDU.json"
+    if not dep_path.exists():
+        return pd.DataFrame()
+    with open(dep_path, encoding="utf-8") as f:
+        data = json.load(f)
+    rows = []
+    for item in data:
+        entries = item if isinstance(item, list) else [item]
+        for sub in entries:
+            if isinstance(sub, dict) and sub.get("name") == "MAQUETTE_dependance_sequence":
+                rows = sub.get("data", [])
                 break
-    df_dependances = pd.DataFrame(seq_list)
-    return general_audit_json, sequence_audit_json, df_exactitude, df_dependances
+    return pd.DataFrame(rows)
 
-general_audit_json, sequence_audit_json, df_exactitude, df_dependances = load_data()
 
-# Préparation des anomalies combinées
-old_anomalies = general_audit_json.get('anomalies', [])
-# On retire les anciennes anomalies Chronologie/Structure pour utiliser notre nouveau moteur de graphe plus précis
-filtered_old = [a for a in old_anomalies if a.get('type') not in ['Chronologie', 'Structure']]
+# ---------------------------------------------------------------------------
+# Sidebar
+# ---------------------------------------------------------------------------
 
-# Normalisation des clés pour fusionner avec les nouvelles anomalies
-for a in filtered_old:
-    if 'module' in a: a['module_code'] = a.pop('module')
-    if 'type' in a: a['type_anomalie'] = a.pop('type')
-    # Normalisation de la criticité
-    crit = a.get('criticite', '').upper()
-    if crit == 'BLOQUANT': crit = 'BLOQUANTE'
-    elif crit == 'MAJEUR': crit = 'ELEVEE'
-    elif crit == 'MINEUR': crit = 'MOYENNE'
-    a['criticite'] = crit
+def render_sidebar() -> None:
+    with st.sidebar:
+        st.header("Contrôles")
+        if st.button("♻️ Relancer l'audit complet"):
+            st.cache_data.clear()
+            from src.rules.engine import run_audit
+            run_audit(DATA_DIR, OUTPUT_DIR)
+            st.rerun()
 
-new_anomalies = sequence_audit_json.get('anomalies_detaillees', [])
-all_anomalies = filtered_old + new_anomalies
-anomalies = pd.DataFrame(all_anomalies)
+        st.markdown("---")
+        st.markdown("**Sources de données**")
+        sources = [
+            "MAQUETTE_IDU.json",
+            "ADECal_IDU3.json",
+            "ADECal_IDU4.json",
+            "ADECal_IDU5.json",
+            "Responsables_modules_IDU.json",
+            "dependance_sequence_IDU.json",
+            "Résumé Moodle IDU.html",
+        ]
+        for fname in sources:
+            icon = "✅" if (DATA_DIR / fname).exists() else "❌"
+            st.write(f"{icon} {fname}")
 
-# --- HEADER & STORYTELLING ---
-st.title("🛡️ Dashboard Audit IDU : Qualité de la Donnée Pédagogique")
-st.markdown("""
-Bienvenue dans le rapport d'audit interactif. Ce tableau de bord évalue la santé globale de l'emploi du temps (ADE) par rapport au référentiel officiel (Maquette). 
-**L'objectif** : Vous guider vers les anomalies critiques nécessitant une correction immédiate pour garantir un cursus fluide aux étudiants.
-""")
+        st.markdown("---")
+        st.markdown("**Dashboards alternatifs**")
+        if (OUTPUT_DIR / "dashboard_premium.html").exists():
+            with open(OUTPUT_DIR / "dashboard_premium.html", encoding="utf-8") as f:
+                html_bytes = f.read().encode()
+            st.download_button(
+                "⬇️ Télécharger le dashboard HTML",
+                data=html_bytes,
+                file_name="dashboard_premium.html",
+                mime="text/html",
+            )
 
-col1, col2 = st.columns([1, 2])
 
-with col1:
-    score = general_audit_json.get('global_score', 0)
-    st.metric(label="Score Global de Santé", value=f"{score}/100", delta="-18.8" if score < 100 else "0")
-    st.markdown("### L'inventaire des Alertes")
-    
-    if not anomalies.empty:
-        counts = anomalies['criticite'].value_counts()
-        st.error(f"🚨 **{counts.get('BLOQUANTE', 0)} Bloquantes** (Structure Invalide, Graphes, Unicité)")
-        st.warning(f"⚠️ **{counts.get('ELEVEE', 0)} Élevées** (Inversions Logiques, Exactitude)")
-        st.info(f"ℹ️ **{counts.get('MOYENNE', 0)} Mineures** (Cohérence responsable, Orphelines)")
-    else:
-        st.success("Aucune anomalie détectée.")
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
 
-with col2:
-    st.markdown("### 🕸️ Les 6 Dimensions de Qualité")
-    dims = general_audit_json.get('dimensions', {})
-    
-    if dims:
-        r_vals = list(dims.values())
-        r_vals.append(r_vals[0])
-        theta_vals = list(dims.keys())
-        theta_vals.append(theta_vals[0])
-        
-        fig_radar = go.Figure(data=go.Scatterpolar(
-            r=r_vals,
-            theta=theta_vals,
-            fill='toself',
-            line_color='#00b4d8'
+def main() -> None:
+    render_sidebar()
+
+    st.title("🛡️ Audit Qualité — Données Pédagogiques IDU")
+    st.caption("Polytech Annecy-Chambéry · Filière IDU")
+
+    if not DATA_DIR.exists() or not any(DATA_DIR.iterdir()):
+        st.error(f"Dossier `{DATA_DIR}` introuvable ou vide. Placez-y les fichiers JSON.")
+        return
+
+    report = load_report()
+    seq_report = load_sequence_report()
+
+    summary = report["summary"]
+    scores = report["scores"]
+    anomalies = report["anomalies"]
+    events = report.get("events", [])
+    df_anom = pd.DataFrame(anomalies)
+
+    # ------------------------------------------------------------------ #
+    # KPI row
+    # ------------------------------------------------------------------ #
+    col1, col2, col3, col4, col5 = st.columns(5)
+    col1.metric("Score global", f"{scores['global']:.0f}/100")
+    col2.metric("🔴 Bloquantes", summary["bloquant"])
+    col3.metric("🟠 Majeures", summary["majeur"])
+    col4.metric("🟡 Mineures", summary["mineur"])
+    col5.metric("Séances analysées", len(events))
+
+    st.markdown("---")
+
+    # ------------------------------------------------------------------ #
+    # Tabs
+    # ------------------------------------------------------------------ #
+    tab1, tab2, tab3, tab4 = st.tabs([
+        "📊 Vue générale",
+        "📋 Anomalies détaillées",
+        "📈 Écarts horaires",
+        "🕸️ Graphe de séquencement",
+    ])
+
+    with tab1:
+        _render_overview(scores, df_anom)
+
+    with tab2:
+        _render_anomaly_table(df_anom)
+
+    with tab3:
+        _render_hours_chart(events, report)
+
+    with tab4:
+        _render_dag_view(seq_report)
+
+
+# ---------------------------------------------------------------------------
+# Tab 1 — Overview
+# ---------------------------------------------------------------------------
+
+def _render_overview(scores: dict, df_anom: pd.DataFrame) -> None:
+    c1, c2 = st.columns([1, 1])
+
+    with c1:
+        dimensions = ["Complétude", "Exactitude", "Séquencement", "Unicité", "Cohérence"]
+        values = [
+            scores["completude"],
+            scores["exactitude"],
+            scores["conformite"],
+            scores["unicite"],
+            scores["coherence"],
+        ]
+        fig = go.Figure(go.Scatterpolar(
+            r=values + [values[0]],
+            theta=dimensions + [dimensions[0]],
+            fill="toself",
+            fillcolor="rgba(37, 99, 235, 0.2)",
+            line=dict(color="#2563eb", width=2),
+            marker=dict(color="#2563eb", size=6),
         ))
-        fig_radar.update_layout(polar=dict(radialaxis=dict(visible=True, range=[0, 100])), showlegend=False, margin=dict(t=20, b=20))
-        st.plotly_chart(fig_radar, use_container_width=True)
+        fig.update_layout(
+            polar=dict(radialaxis=dict(range=[0, 100])),
+            showlegend=False,
+            title="Scores par dimension qualité",
+            height=380,
+            margin=dict(t=40, b=20, l=40, r=40),
+        )
+        st.plotly_chart(fig, width="stretch")
 
-st.divider()
+    with c2:
+        if df_anom.empty:
+            st.info("Aucune anomalie détectée.")
+        else:
+            counts = df_anom["criticite"].value_counts().reset_index()
+            counts.columns = ["criticite", "count"]
+            color_map = {"bloquant": "#ef4444", "majeur": "#f59e0b", "mineur": "#38bdf8"}
+            fig2 = px.pie(
+                counts,
+                names="criticite",
+                values="count",
+                hole=0.55,
+                color="criticite",
+                color_discrete_map=color_map,
+                title="Répartition par criticité",
+            )
+            fig2.update_layout(height=380)
+            st.plotly_chart(fig2, width="stretch")
 
-# --- HEATMAP EXACTITUDE ---
-st.markdown("### 🔥 Heatmap des Écarts d'Heures (Modules Problématiques)")
-st.markdown("Ce graphe cible immédiatement les modules où le volume horaire planifié diffère drastiquement de la maquette.")
-df_heatmap = df_exactitude.copy()
-df_heatmap['ecart_pourcentage'] = df_heatmap['ecart_pourcentage'].replace([np.inf, -np.inf], 100)
-df_heatmap = df_heatmap[df_heatmap['ecart_pourcentage'] > 0]
 
-if not df_heatmap.empty:
-    pivot = df_heatmap.pivot_table(index='code_module', columns='type_seance', values='ecart_pourcentage', fill_value=0)
-    fig_heat = px.imshow(pivot, labels=dict(x="Type Séance", y="Module", color="Écart (%)"), color_continuous_scale='Reds', aspect='auto')
-    st.plotly_chart(fig_heat, use_container_width=True)
-else:
-    st.success("Aucun écart significatif.")
+# ---------------------------------------------------------------------------
+# Tab 2 — Anomaly table
+# ---------------------------------------------------------------------------
 
-st.divider()
+def _render_anomaly_table(df_anom: pd.DataFrame) -> None:
+    if df_anom.empty:
+        st.success("Aucune anomalie détectée — données impeccables !")
+        return
 
-# --- GRAPHE DE DEPENDANCES ---
-st.markdown("### 🕵️ Graphe Interactif des Dépendances (Théorie des Graphes)")
-st.markdown("La maquette prévoit un ordre strict. Voici le DAG (Directed Acyclic Graph) des modules. Les liens en **rouge** indiquent les règles du référentiel.")
+    col1, col2 = st.columns(2)
+    with col1:
+        dim_options = df_anom["dimension"].unique().tolist() if "dimension" in df_anom.columns else []
+        dim_filter = st.multiselect("Dimension", dim_options, default=dim_options)
+    with col2:
+        crit_filter = st.multiselect(
+            "Criticité", ["bloquant", "majeur", "mineur"], default=["bloquant", "majeur", "mineur"]
+        )
 
-def plot_network(module_code):
-    df_mod = df_dependances[df_dependances['module_precedent'] == module_code]
-    G = nx.DiGraph()
-    for _, row in df_mod.iterrows():
-        n1 = f"{row['type_precedent']}_{row['numero_precedent']}"
-        n2 = f"{row['type_suivant']}_{row['numero_suivant']}"
-        G.add_edge(n1, n2)
-        
-    pos = nx.spring_layout(G, seed=42)
-    edge_x = []
-    edge_y = []
-    for edge in G.edges():
-        x0, y0 = pos[edge[0]]
-        x1, y1 = pos[edge[1]]
-        edge_x.extend([x0, x1, None])
-        edge_y.extend([y0, y1, None])
+    filtered = df_anom.copy()
+    if "dimension" in filtered.columns and dim_filter:
+        filtered = filtered[filtered["dimension"].isin(dim_filter)]
+    if "criticite" in filtered.columns:
+        filtered = filtered[filtered["criticite"].isin(crit_filter)]
 
-    edge_trace = go.Scatter(x=edge_x, y=edge_y, line=dict(width=2, color='red'), hoverinfo='none', mode='lines', name='Dépendances')
-    
-    node_x = []
-    node_y = []
-    node_text = []
-    for node in G.nodes():
-        x, y = pos[node]
-        node_x.append(x)
-        node_y.append(y)
-        node_text.append(node)
+    priority_map = {"bloquant": 1, "majeur": 2, "mineur": 3}
+    if "criticite" in filtered.columns:
+        filtered["_prio"] = filtered["criticite"].map(priority_map).fillna(4)
+        filtered = filtered.sort_values("_prio").drop(columns=["_prio"])
 
-    node_trace = go.Scatter(x=node_x, y=node_y, mode='markers+text', text=node_text, textposition="top center",
-                            marker=dict(showscale=False, color='lightblue', size=20, line_width=2))
-    
-    fig = go.Figure(data=[edge_trace, node_trace],
-             layout=go.Layout(
-                showlegend=False, hovermode='closest',
-                margin=dict(b=20,l=5,r=5,t=40),
+    def _color_crit(val: str) -> str:
+        return {
+            "bloquant": "color: #991b1b; font-weight: bold",
+            "majeur": "color: #92400e",
+            "mineur": "color: #075985",
+        }.get(val, "")
+
+    display_cols = [c for c in ["dimension", "code_module", "description", "criticite"] if c in filtered.columns]
+    rename_map = {"dimension": "Dimension", "code_module": "Module", "description": "Description", "criticite": "Criticité"}
+    styled = filtered[display_cols].rename(columns=rename_map)
+    if "Criticité" in styled.columns:
+        styled = styled.style.map(_color_crit, subset=["Criticité"])
+    st.dataframe(styled, width="stretch", height=500)
+    st.caption(f"{len(filtered)} anomalie(s) affichée(s) sur {len(df_anom)} au total")
+
+
+# ---------------------------------------------------------------------------
+# Tab 3 — Hours comparison
+# ---------------------------------------------------------------------------
+
+def _render_hours_chart(events: list, report: dict) -> None:
+    st.markdown("**Comparaison Maquette vs ADE — Volume horaire par module**")
+
+    if not events:
+        st.warning("Aucune donnée de séances disponible.")
+        return
+
+    # Try to load maquette for planned hours
+    maquette_path = DATA_DIR / "MAQUETTE_IDU.json"
+    if not maquette_path.exists():
+        st.warning("MAQUETTE_IDU.json introuvable.")
+        return
+
+    try:
+        from src.parsers.maquette import parse_maquette
+        maquette = parse_maquette(maquette_path)
+    except Exception as e:
+        st.error(f"Erreur chargement maquette: {e}")
+        return
+
+    # Compute actual hours from events (deduplicated)
+    seen: set = set()
+    ade_hours: dict = defaultdict(lambda: defaultdict(float))
+    for evt in events:
+        code = evt.get("code", "")
+        stype = evt.get("session_type", "UNKNOWN")
+        if code and stype != "UNKNOWN":
+            key = (code, stype, evt.get("start"), evt.get("end"))
+            if key not in seen:
+                seen.add(key)
+                ade_hours[code][stype] += evt.get("duration_h", 0)
+
+    rows = []
+    for mod in maquette:
+        code = mod["code_module"]
+        for stype, planned_key in [("CM", "cm"), ("TD", "td"), ("TP", "tp")]:
+            planned = mod.get(planned_key, 0) or 0
+            actual = ade_hours[code].get(stype, 0.0)
+            if planned > 0 or actual > 0:
+                rows.append({
+                    "Module": code,
+                    "Type": stype,
+                    "Maquette (h)": planned,
+                    "ADE (h)": round(actual, 1),
+                    "Écart (%)": round(abs(actual - planned) / planned * 100 if planned else 100, 1),
+                })
+
+    if not rows:
+        st.warning("Impossible de calculer les écarts horaires.")
+        return
+
+    df_hours = pd.DataFrame(rows)
+    stype_filter = st.selectbox("Type de séance", ["Tous", "CM", "TD", "TP"])
+    if stype_filter != "Tous":
+        df_hours = df_hours[df_hours["Type"] == stype_filter]
+
+    df_display = df_hours[df_hours["Écart (%)"] > 0].nlargest(25, "Écart (%)")
+
+    fig = go.Figure()
+    fig.add_bar(
+        name="Maquette",
+        x=df_display["Module"] + " " + df_display["Type"],
+        y=df_display["Maquette (h)"],
+        marker_color="#93c5fd",
+    )
+    fig.add_bar(
+        name="ADE",
+        x=df_display["Module"] + " " + df_display["Type"],
+        y=df_display["ADE (h)"],
+        marker_color="#fca5a5",
+    )
+    fig.update_layout(
+        barmode="group",
+        title="Top 25 écarts horaires — Maquette vs ADE",
+        xaxis_tickangle=-45,
+        height=480,
+        legend=dict(orientation="h", y=1.05),
+    )
+    st.plotly_chart(fig, width="stretch")
+
+    with st.expander("📋 Tableau complet des écarts"):
+        st.dataframe(df_hours.sort_values("Écart (%)", ascending=False), width="stretch")
+
+
+# ---------------------------------------------------------------------------
+# Tab 4 — Sequence DAG
+# ---------------------------------------------------------------------------
+
+def _render_dag_view(seq_report: dict) -> None:
+    st.markdown("**Graphe interactif des dépendances de séquencement (DAG)**")
+    st.caption("La maquette définit un ordre CM → TD → TP. Les liens rouges signalent les inversions détectées.")
+
+    df_dep = load_dependances()
+    if df_dep.empty:
+        st.warning("Fichier `dependance_sequence_IDU.json` introuvable ou vide.")
+        return
+
+    required_cols = {"module_precedent", "type_precedent", "numero_precedent", "type_suivant", "numero_suivant"}
+    if not required_cols.issubset(df_dep.columns):
+        st.warning(f"Colonnes manquantes dans le fichier de dépendances. Trouvées: {list(df_dep.columns)}")
+        return
+
+    module_list = df_dep["module_precedent"].dropna().unique()
+    if len(module_list) == 0:
+        st.warning("Aucun module trouvé dans les dépendances.")
+        return
+
+    default_idx = list(module_list).index("MATH531_IDU") if "MATH531_IDU" in module_list else 0
+
+    colA, colB = st.columns([1, 2])
+    with colA:
+        selected_mod = st.selectbox("Sélectionner un module", module_list, index=default_idx)
+
+        # Show sequence audit details if available
+        if seq_report:
+            details = seq_report.get("module_details", {}).get(selected_mod, {})
+            conformite = seq_report.get("conformite_details", {}).get(selected_mod, {})
+            if details:
+                st.markdown(f"**Diagnostic : {selected_mod}**")
+                if details.get("status") == "Sain":
+                    st.success(details.get("conclusion", "Séquence saine."))
+                else:
+                    st.error(details.get("conclusion", "Problème détecté."))
+            if conformite:
+                st.markdown(f"- Relations testées : **{conformite.get('total_relations', 0)}**")
+                st.markdown(f"- Violations chronologiques : **{conformite.get('violations', 0)}**")
+                st.markdown(f"- Taux de violation : **{round(conformite.get('taux_violation', 0), 2)}%**")
+        else:
+            st.info("Lancez `src/audit_sequence_dag.py` pour afficher les diagnostics détaillés.")
+
+    with colB:
+        df_mod = df_dep[df_dep["module_precedent"] == selected_mod].copy()
+        df_mod = df_mod.dropna(subset=["type_precedent", "numero_precedent", "type_suivant", "numero_suivant"])
+        df_mod = df_mod[df_mod["module_precedent"] == df_mod.get("module_suivant", df_mod["module_precedent"])] \
+            if "module_suivant" in df_mod.columns else df_mod
+
+        G = nx.DiGraph()
+        edge_colors = []
+        for _, row in df_mod.iterrows():
+            n1 = f"{str(row['type_precedent']).strip()}_{row['numero_precedent']}"
+            n2 = f"{str(row['type_suivant']).strip()}_{row['numero_suivant']}"
+            G.add_edge(n1, n2)
+            # Detect logical inversions: TP→CM, TP→TD, TD→CM are wrong
+            t_a = str(row["type_precedent"]).strip()
+            t_b = str(row["type_suivant"]).strip()
+            is_inversion = (t_a == "TP" and t_b in ["CM", "TD"]) or (t_a == "TD" and t_b == "CM")
+            edge_colors.append("#ef4444" if is_inversion else "#6b7280")
+
+        if len(G.nodes) == 0:
+            st.info("Aucune dépendance intra-module trouvée pour ce module.")
+        else:
+            pos = nx.spring_layout(G, seed=42)
+            edge_x, edge_y, edge_color_list = [], [], []
+            for idx, (u, v) in enumerate(G.edges()):
+                x0, y0 = pos[u]
+                x1, y1 = pos[v]
+                edge_x += [x0, x1, None]
+                edge_y += [y0, y1, None]
+
+            fig_net = go.Figure()
+            # Draw edges (simple, no per-edge color in plotly without per-segment traces)
+            for idx, (u, v) in enumerate(G.edges()):
+                x0, y0 = pos[u]
+                x1, y1 = pos[v]
+                color = edge_colors[idx] if idx < len(edge_colors) else "#6b7280"
+                fig_net.add_trace(go.Scatter(
+                    x=[x0, x1, None], y=[y0, y1, None],
+                    mode="lines",
+                    line=dict(width=2, color=color),
+                    hoverinfo="none",
+                    showlegend=False,
+                ))
+
+            node_x = [pos[n][0] for n in G.nodes()]
+            node_y = [pos[n][1] for n in G.nodes()]
+            node_text = list(G.nodes())
+            fig_net.add_trace(go.Scatter(
+                x=node_x, y=node_y,
+                mode="markers+text",
+                text=node_text,
+                textposition="top center",
+                marker=dict(size=22, color="#93c5fd", line=dict(width=2, color="#2563eb")),
+                hoverinfo="text",
+                showlegend=False,
+            ))
+            fig_net.update_layout(
+                showlegend=False,
+                hovermode="closest",
+                height=420,
+                margin=dict(b=20, l=5, r=5, t=30),
                 xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-                yaxis=dict(showgrid=False, zeroline=False, showticklabels=False))
-                )
-    return fig
+                yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+                title=f"DAG de séquencement — {selected_mod}",
+            )
+            st.plotly_chart(fig_net, width="stretch")
+            st.caption("🔴 Lien rouge = inversion logique (ex: TP avant CM/TD)")
 
-colA, colB = st.columns([1, 2])
-with colA:
-    mod_list = df_dependances['module_precedent'].dropna().unique()
-    default_idx = list(mod_list).index("MATH531_IDU") if "MATH531_IDU" in mod_list else 0
-    selected_mod = st.selectbox("Sélectionner un module pour visualiser son graphe", mod_list, index=default_idx)
-    
-    # Nouveaux diagnostics (Depuis le nouveau fichier JSON)
-    details = sequence_audit_json.get("module_details", {}).get(selected_mod, {})
-    st.markdown(f"**Diagnostic pour {selected_mod} :**")
-    if details.get('status') == 'Sain':
-        st.success(details.get('conclusion', 'Séquence saine.'))
-    else:
-        st.error(details.get('conclusion', 'Problème détecté.'))
-        
-    conformite = sequence_audit_json.get("conformite_details", {}).get(selected_mod, {})
-    if conformite:
-        st.markdown(f"- **Relations testées :** {conformite.get('total_relations')}")
-        st.markdown(f"- **Violations chronologiques :** {conformite.get('violations')}")
-        st.markdown(f"- **Taux de violation :** {round(conformite.get('taux_violation', 0), 2)}%")
+    # Global sequence stats from seq_report
+    if seq_report:
+        stats = seq_report.get("statistiques_globales", {})
+        if stats:
+            st.markdown("---")
+            st.markdown("**Statistiques globales du séquencement**")
+            c1, c2, c3, c4 = st.columns(4)
+            c1.metric("Modules audités", stats.get("total_modules_audites", "—"))
+            c2.metric("Modules sains", stats.get("modules_sains", {}).get("count", "—"))
+            c3.metric("Modules cassés", stats.get("modules_casses", {}).get("count", "—"))
+            c4.metric("Sessions orphelines", stats.get("sessions_orphelines_count", "—"))
 
-with colB:
-    fig_net = plot_network(selected_mod)
-    st.plotly_chart(fig_net, use_container_width=True)
 
-# --- INVENTAIRE FINAL ---
-st.markdown("### 📋 Liste des Anomalies (Top 50 Pires)")
-if not anomalies.empty:
-    # Trier par criticité
-    priority = {'BLOQUANTE': 1, 'ELEVEE': 2, 'MOYENNE': 3}
-    anomalies['priorite'] = anomalies['criticite'].map(priority).fillna(4)
-    anomalies = anomalies.sort_values('priorite').drop('priorite', axis=1)
-    
-    anomalies_disp = anomalies.head(50)
-    
-    def color_criticite(val):
-        if val == 'BLOQUANTE': return 'background-color: #ff4b4b; color: white; font-weight: bold'
-        elif val == 'ELEVEE': return 'background-color: #ffa421; color: white'
-        elif val == 'MOYENNE': return 'background-color: #1c83e1; color: white'
-        return ''
-        
-    styled_df = anomalies_disp.style.map(color_criticite, subset=['criticite'])
-    st.dataframe(styled_df, use_container_width=True)
-else:
-    st.success("Aucune anomalie à afficher.")
+if __name__ == "__main__":
+    main()

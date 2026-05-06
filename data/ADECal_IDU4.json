@@ -1,0 +1,3173 @@
+[
+    {
+        "Title": "INFO731_INGE_CM",
+        "Location": "A-A204 (28pl.)",
+        "Starts": "2025-09-01 13:00:00+00:00",
+        "Ends": "2025-09-01 14:30:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_Proj",
+        "Location": "A-C209 (28pl.),A-C217 (24pl.)",
+        "Starts": "2025-11-06 12:00:00+00:00",
+        "Ends": "2025-11-06 16:00:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (TD)\n\nIDU-4-A\nMATHIEU PAUL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_TP1",
+        "Location": "A-C209 (28pl.)",
+        "Starts": "2026-04-27 06:00:00+00:00",
+        "Ends": "2026-04-27 10:00:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (TP)\n\nIDU-4-A1\nMARY HUET de BAROCHEZ ANDREW\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_CM",
+        "Location": "A-C105 (40pl.)",
+        "Starts": "2026-02-23 09:00:00+00:00",
+        "Ends": "2026-02-23 10:30:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (CM)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_CM",
+        "Location": "A-C208 (29pl.)",
+        "Starts": "2026-01-26 12:15:00+00:00",
+        "Ends": "2026-01-26 13:45:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (CM)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_TPTD",
+        "Location": "A-C216 (30pl.)",
+        "Starts": "2026-04-29 12:00:00+00:00",
+        "Ends": "2026-04-29 16:00:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (TD)\n\nIDU-4-A\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 lundi",
+        "Location": "",
+        "Starts": "2026-03-16 17:15:00+00:00",
+        "Ends": "2026-03-16 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_CM",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2026-04-13 11:30:00+00:00",
+        "Ends": "2026-04-13 13:00:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (CM)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA832_INGE_TD",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2026-03-19 14:15:00+00:00",
+        "Ends": "2026-03-19 15:45:00+00:00",
+        "Description": "DATA832 Machine learning 1 (TD)\n\nIDU-4-Promo\nGALLET MATTHIEU\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_CM",
+        "Location": "A-C210 -Libre service (28pl.)",
+        "Starts": "2026-03-02 14:00:00+00:00",
+        "Ends": "2026-03-02 15:30:00+00:00",
+        "Description": "INFO834 Base de données distribuée (CM)\n\nIDU-4-Promo\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-B120 (150pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-09-03 12:15:00+00:00",
+        "Ends": "2025-09-03 13:45:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "BDE - Fin intégration",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-10-08 10:15:00+00:00",
+        "Ends": "2025-10-08 11:15:00+00:00",
+        "Description": " (ACTIVITE NON ENCADREE)\n\nIDU-4\nMECA-FISE-4\nSNI-4\nIDU-3\nMECA-FISE-3\nSNI-3\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "INFO833_INGE_TP1",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-04-02 06:00:00+00:00",
+        "Ends": "2026-04-02 10:00:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (TP)\n\nIDU-4-A1\nMARY HUET de BAROCHEZ ANDREW\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_CM",
+        "Location": "A-C108 (40pl.)",
+        "Starts": "2025-09-02 14:45:00+00:00",
+        "Ends": "2025-09-02 16:15:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (CM)\n\nIDU-4-Promo\nSNI-4\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C205 (30pl.),A-C204 (24pl.)",
+        "Starts": "2025-09-23 13:00:00+00:00",
+        "Ends": "2025-09-23 14:30:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 lundi",
+        "Location": "",
+        "Starts": "2026-03-02 17:15:00+00:00",
+        "Ends": "2026-03-02 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG801_PACY seuls",
+        "Location": "A-B120 (150pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2026-03-31 11:15:00+00:00",
+        "Ends": "2026-03-31 12:45:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "ISOC731_INGE_CM",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-11-20 14:00:00+00:00",
+        "Ends": "2025-11-20 15:30:00+00:00",
+        "Description": "ISOC731 Economie et gouvernance de la donnée (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC731 Economie et gouvernance de la donnée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C205 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-B120 (150pl.)",
+        "Starts": "2025-10-14 12:45:00+00:00",
+        "Ends": "2025-10-14 14:15:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nVIGNAND SYLVIE\nDUPRE PAMELA\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA832_INGE_TPTD_2h",
+        "Location": "A-C210 -Libre service (28pl.)",
+        "Starts": "2026-03-11 07:15:00+00:00",
+        "Ends": "2026-03-11 09:15:00+00:00",
+        "Description": "DATA832 Machine learning 1 (TD)\n\nIDU-4-A1\nIDU-4-A2\nBENOIT ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_TD",
+        "Location": "A-C108 (40pl.)",
+        "Starts": "2026-02-06 14:00:00+00:00",
+        "Ends": "2026-02-06 15:30:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (TD)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO734_INGE_Proj",
+        "Location": "A-C215 (28pl.),A-C202 (24pl.)",
+        "Starts": "2025-12-08 12:15:00+00:00",
+        "Ends": "2025-12-08 16:15:00+00:00",
+        "Description": "INFO734 Développement Full Stack (TD)\n\nIDU-4-A\nMIAN AMMAR\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO734 Développement Full Stack , N4IE01_191 , \n"
+    },
+    {
+        "Title": "PROJ832_INGE_CM",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2026-01-21 14:00:00+00:00",
+        "Ends": "2026-01-21 16:00:00+00:00",
+        "Description": "PROJ832 Flux de Données et Accès Concurrents (CM)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ832 Flux de Données et Accès Concurrents , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_Proj",
+        "Location": "A-C209 (28pl.),A-C210 -Libre service (28pl.)",
+        "Starts": "2025-10-10 05:45:00+00:00",
+        "Ends": "2025-10-10 09:45:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (TD)\n\nIDU-4-A\nFERRER ROMAIN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_CM",
+        "Location": "A-C105 (40pl.)",
+        "Starts": "2026-03-03 07:15:00+00:00",
+        "Ends": "2026-03-03 08:45:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (CM)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_TD",
+        "Location": "A-C203 (30pl.)",
+        "Starts": "2026-03-17 15:15:00+00:00",
+        "Ends": "2026-03-17 16:45:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (TD)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_CM",
+        "Location": "A-C203 (30pl.)",
+        "Starts": "2026-03-09 12:15:00+00:00",
+        "Ends": "2026-03-09 13:45:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (CM)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_CM",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-09-08 11:15:00+00:00",
+        "Ends": "2025-09-08 12:45:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (CM)\n\nIDU-4-Promo\nCIMPAN SORANA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO734_INGE_CM",
+        "Location": "A-C216 (30pl.)",
+        "Starts": "2025-12-03 12:15:00+00:00",
+        "Ends": "2025-12-03 13:45:00+00:00",
+        "Description": "INFO734 Développement Full Stack (CM)\n\nIDU-4-Promo\nMIAN AMMAR\n\n1726497765282\n\n(Exporté le:29/04/2026 10:56)\n\nINFO734 Développement Full Stack , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mercredi",
+        "Location": "",
+        "Starts": "2025-10-22 16:15:00+00:00",
+        "Ends": "2025-10-22 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "SHES803_INGE_CM",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2026-03-04 07:15:00+00:00",
+        "Ends": "2026-03-04 08:45:00+00:00",
+        "Description": "SHES803 THO (CM)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVALISE EPU-A-1\nVALISE EPU-A-2\nWOLFF CHRISTIAN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_TP1",
+        "Location": "A-C210 -Libre service (28pl.)",
+        "Starts": "2026-04-17 11:30:00+00:00",
+        "Ends": "2026-04-17 15:30:00+00:00",
+        "Description": "INFO834 Base de données distribuée (TP)\n\nIDU-4-A1\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mercredi",
+        "Location": "",
+        "Starts": "2026-02-11 17:15:00+00:00",
+        "Ends": "2026-02-11 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "[Evénement BDE] POLYMPIADES",
+        "Location": "",
+        "Starts": "2026-03-26 07:00:00+00:00",
+        "Ends": "2026-03-26 12:00:00+00:00",
+        "Description": " (ACTIVITE ASSOCIATIVE)\n\nEPU-1-S2-PEIPA\nEPU-2-S4-PEIPA\nsem-2\nsem-4\nBAT_FISE_1\nBAT_FISE_2\nEIT\nMC\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4\nMECA-FISE-4\nSNI-4\nBAT_FISE\nEIT-4\nMC-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "DATA832_INGE_CM",
+        "Location": "A-C110 (29pl.)",
+        "Starts": "2026-03-04 12:15:00+00:00",
+        "Ends": "2026-03-04 13:45:00+00:00",
+        "Description": "DATA832 Machine learning 1 (CM)\n\nIDU-4-Promo\nBENOIT ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG800_PACY (soutien)",
+        "Location": "A-C205 (30pl.),A-B120 (150pl.)",
+        "Starts": "2026-01-22 13:30:00+00:00",
+        "Ends": "2026-01-22 14:15:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nSELLIER KATRINE\nVIGNAND SYLVIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_TD",
+        "Location": "A-A204 (28pl.)",
+        "Starts": "2026-03-24 09:00:00+00:00",
+        "Ends": "2026-03-24 10:30:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (TD)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES802_INGE_TD-IDU-A-SMQ",
+        "Location": "A-C109 (29pl.)",
+        "Starts": "2026-05-05 06:15:00+00:00",
+        "Ends": "2026-05-05 07:45:00+00:00",
+        "Description": "SHES803 THO (TD)\n\nIDU-4-A\nDANILLON YANNICK\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES803_INGE_CM",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2026-02-25 07:15:00+00:00",
+        "Ends": "2026-02-25 08:45:00+00:00",
+        "Description": "SHES803 THO (CM)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVALISE EPU-A-1\nVALISE EPU-A-2\nWOLFF CHRISTIAN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "Vis ma Vie",
+        "Location": "",
+        "Starts": "2026-02-05 07:30:00+00:00",
+        "Ends": "2026-02-05 15:30:00+00:00",
+        "Description": " ()\n\nIDU-4-A1\nIDU-4-A2\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "DATA732_INGE_CM",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-09-23 06:15:00+00:00",
+        "Ends": "2025-09-23 07:45:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (CM)\n\nIDU-4-Promo\nCIMPAN SORANA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_CM",
+        "Location": "A-C202 (24pl.)",
+        "Starts": "2025-11-24 12:15:00+00:00",
+        "Ends": "2025-11-24 13:45:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES703 Simulation Entretiens TP1",
+        "Location": "A-A022 (22pl.),Distanciel,Distanciel,A-C204 (24pl.)",
+        "Starts": "2025-12-05 07:00:00+00:00",
+        "Ends": "2025-12-05 11:00:00+00:00",
+        "Description": "SHES703 Communication - Ressources et dynamique personnelles et professionnelles (TP)\n\nIDU-4-A1\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES703 Communication - Ressources et dynamique personnelles et professionnelles , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_CM",
+        "Location": "A-C210 -Libre service (28pl.)",
+        "Starts": "2026-02-26 14:15:00+00:00",
+        "Ends": "2026-02-26 15:45:00+00:00",
+        "Description": "INFO834 Base de données distribuée (CM)\n\nIDU-4-Promo\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG801_PACY stage toeic avril 801 seuls",
+        "Location": "A-B120 (150pl.),A-C203 (30pl.),A-C205 (30pl.)",
+        "Starts": "2026-04-22 10:30:00+00:00",
+        "Ends": "2026-04-22 13:30:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nCLARK JULIE\nVIGNAND SYLVIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_CM",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-10-16 12:00:00+00:00",
+        "Ends": "2025-10-16 13:30:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (CM)\n\nIDU-4-Promo\nMATHIEU PAUL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "ISOC731_INGE_CM",
+        "Location": "Distanciel",
+        "Starts": "2025-11-03 09:00:00+00:00",
+        "Ends": "2025-11-03 10:30:00+00:00",
+        "Description": "ISOC731 Economie et gouvernance de la donnée (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC731 Economie et gouvernance de la donnée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "ISOC731_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-11-17 15:45:00+00:00",
+        "Ends": "2025-11-17 17:15:00+00:00",
+        "Description": "ISOC731 Economie et gouvernance de la donnée (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC731 Economie et gouvernance de la donnée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 lundi",
+        "Location": "",
+        "Starts": "2026-02-09 17:15:00+00:00",
+        "Ends": "2026-02-09 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mardi",
+        "Location": "",
+        "Starts": "2026-01-13 17:15:00+00:00",
+        "Ends": "2026-01-13 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG801_PACY stage toeic avril+ cours 802",
+        "Location": "A-B014 (150pl.),A-C203 (30pl.),A-C204 (24pl.),A-C209 (28pl.)",
+        "Starts": "2026-04-20 06:15:00+00:00",
+        "Ends": "2026-04-20 09:15:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nCLARK JULIE\nDUPRE PAMELA\nVIGNAND SYLVIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA832_INGE_TD",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2026-03-04 14:00:00+00:00",
+        "Ends": "2026-03-04 15:30:00+00:00",
+        "Description": "DATA832 Machine learning 1 (TD)\n\nIDU-4-Promo\nBENOIT ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA731_INGE_CM",
+        "Location": "A-A203 (26pl.)",
+        "Starts": "2025-10-24 08:00:00+00:00",
+        "Ends": "2025-10-24 09:30:00+00:00",
+        "Description": "DATA731 Modélisation Stochastic (CM)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA731 Modélisation Stochastic , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-B014 (150pl.),A-C111 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-11-12 11:45:00+00:00",
+        "Ends": "2025-11-12 13:15:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA832_INGE_TPTD_2h",
+        "Location": "A-C216 (30pl.)",
+        "Starts": "2026-04-03 08:00:00+00:00",
+        "Ends": "2026-04-03 10:00:00+00:00",
+        "Description": "DATA832 Machine learning 1 (TD)\n\nIDU-4-A1\nIDU-4-A2\nGALLET MATTHIEU\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_TD_IDU",
+        "Location": "A-C108 (40pl.)",
+        "Starts": "2025-11-18 07:15:00+00:00",
+        "Ends": "2025-11-18 08:45:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (TD)\n\nIDU-4-Promo\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "[Evénement BDE] POLYMPIADES",
+        "Location": "",
+        "Starts": "2026-03-26 12:00:00+00:00",
+        "Ends": "2026-03-26 17:00:00+00:00",
+        "Description": " (ACTIVITE ASSOCIATIVE)\n\nEPU-1-S2-PEIPA\nEPU-2-S4-PEIPA\nsem-2\nsem-4\nMC-4\nEIT-4\nBAT_FISE\nBAT_FISE_1\nBAT_FISE_2\nEIT\nMC\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mercredi",
+        "Location": "",
+        "Starts": "2025-10-15 16:15:00+00:00",
+        "Ends": "2025-10-15 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_CM",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2026-01-28 07:15:00+00:00",
+        "Ends": "2026-01-28 08:45:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (CM)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG801_PACY + 802",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2026-01-20 12:15:00+00:00",
+        "Ends": "2026-01-20 13:45:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\nCLARK JULIE\nDUPRE PAMELA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "Réunion présentation stage assistant ingénieur",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2026-01-15 09:00:00+00:00",
+        "Ends": "2026-01-15 10:00:00+00:00",
+        "Description": " ()\n\nMECA-FISE-4\nIDU-4\nSNI-4\nMISLIN CAROLE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "LANG801_Toeic_Avril",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2026-04-23 06:15:00+00:00",
+        "Ends": "2026-04-23 10:15:00+00:00",
+        "Description": " ()\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nMIGNOT SUSANNAH\nCLARK JULIE\nVIGNAND SYLVIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mardi",
+        "Location": "",
+        "Starts": "2026-02-03 17:15:00+00:00",
+        "Ends": "2026-02-03 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "Rentrée FISE4 + MECA-FISA4",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-09-01 06:00:00+00:00",
+        "Ends": "2025-09-01 07:00:00+00:00",
+        "Description": " (ACCUEIL-RENTREE)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nYAN YAJING\nVERNIER FLAVIEN\nSALAMATIAN MOHAMMAD-REZA\nMIAN AMMAR\nFAVRELIERE HUGUES\nBADEL ADRIEN\nGIBUS DAVID\nROUX EMILE\nPAIREL ERIC\nScolarité 1\n\n1726497763468\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "LANG701_PACY seuls",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-12-10 12:15:00+00:00",
+        "Ends": "2025-12-10 13:45:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "PROJ832_INGE_Projet",
+        "Location": "A-C209 (28pl.)",
+        "Starts": "2026-05-04 06:00:00+00:00",
+        "Ends": "2026-05-04 10:00:00+00:00",
+        "Description": "PROJ832 Flux de Données et Accès Concurrents (TP)\n\nIDU-4-A\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ832 Flux de Données et Accès Concurrents , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA731_INGE_TP1",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2025-11-20 07:00:00+00:00",
+        "Ends": "2025-11-20 11:00:00+00:00",
+        "Description": "DATA731 Modélisation Stochastic (TP)\n\nIDU-4-A1\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA731 Modélisation Stochastic , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_CM",
+        "Location": "A-C105 (40pl.)",
+        "Starts": "2025-09-01 08:00:00+00:00",
+        "Ends": "2025-09-01 09:30:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (CM)\n\nIDU-4-Promo\nSNI-4\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_TD",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2025-11-19 07:15:00+00:00",
+        "Ends": "2025-11-19 08:45:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (TD)\n\nIDU-4-Promo\nCIMPAN SORANA\n\n1726497764048\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mardi",
+        "Location": "",
+        "Starts": "2026-01-20 17:15:00+00:00",
+        "Ends": "2026-01-20 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "[RI] Réunion présentation procédure administrative mobilité S9 ACY",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2026-02-03 10:30:00+00:00",
+        "Ends": "2026-02-03 11:30:00+00:00",
+        "Description": " (REUNION)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 lundi",
+        "Location": "",
+        "Starts": "2026-03-09 17:15:00+00:00",
+        "Ends": "2026-03-09 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG700_PACY (soutien)",
+        "Location": "A-B014 (150pl.),A-C205 (30pl.)",
+        "Starts": "2025-09-18 13:30:00+00:00",
+        "Ends": "2025-09-18 14:15:00+00:00",
+        "Description": "LANG700 Anglais soutien (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nVIGNAND SYLVIE\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG700 Anglais soutien , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-11-06 08:45:00+00:00",
+        "Ends": "2025-11-06 10:15:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (CM)\n\nIDU-4-Promo\nCIMPAN SORANA\n\n1726497763779\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_CM",
+        "Location": "A-C103 (30pl.)",
+        "Starts": "2026-03-19 07:00:00+00:00",
+        "Ends": "2026-03-19 08:30:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (CM)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "PROJ832_INGE_Projet",
+        "Location": "A-C202 (24pl.)",
+        "Starts": "2026-04-14 06:00:00+00:00",
+        "Ends": "2026-04-14 10:00:00+00:00",
+        "Description": "PROJ832 Flux de Données et Accès Concurrents (TP)\n\nIDU-4-A\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ832 Flux de Données et Accès Concurrents , N4IE01_191 , \n"
+    },
+    {
+        "Title": "PROJ831_INGE_TPD",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2026-04-15 11:30:00+00:00",
+        "Ends": "2026-04-15 15:30:00+00:00",
+        "Description": "PROJ831 Projet Informatique Données et Usages (TD)\n\nIDU-4-A\nIngénieur Polylab\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ831 Projet Informatique Données et Usages , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 lundi",
+        "Location": "",
+        "Starts": "2025-12-15 17:15:00+00:00",
+        "Ends": "2025-12-15 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO734_INGE_CM",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2025-10-13 11:15:00+00:00",
+        "Ends": "2025-10-13 12:45:00+00:00",
+        "Description": "INFO734 Développement Full Stack (CM)\n\nIDU-4-Promo\nMIAN AMMAR\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO734 Développement Full Stack , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_CM",
+        "Location": "A-C108 (40pl.)",
+        "Starts": "2025-11-04 07:15:00+00:00",
+        "Ends": "2025-11-04 08:45:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (CM)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_TDTP",
+        "Location": "A-C209 (28pl.)",
+        "Starts": "2025-10-17 06:00:00+00:00",
+        "Ends": "2025-10-17 10:00:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (TD)\n\nIDU-4-Promo\nMATHIEU PAUL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mercredi",
+        "Location": "",
+        "Starts": "2025-10-01 16:15:00+00:00",
+        "Ends": "2025-10-01 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_CM",
+        "Location": "A-C104 (29pl.)",
+        "Starts": "2026-01-23 07:30:00+00:00",
+        "Ends": "2026-01-23 09:00:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (CM)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_CM",
+        "Location": "A-C203 (30pl.)",
+        "Starts": "2025-09-26 13:00:00+00:00",
+        "Ends": "2025-09-26 14:30:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG801_PACY + 802",
+        "Location": "A-C104 (29pl.),A-C111 (30pl.),A-C204 (24pl.),A-B014 (150pl.)",
+        "Starts": "2026-02-10 12:30:00+00:00",
+        "Ends": "2026-02-10 14:00:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\nCLARK JULIE\nDUPRE PAMELA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-09-09 11:15:00+00:00",
+        "Ends": "2025-09-09 12:45:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES704_TD_LeGoff_Perrine",
+        "Location": "",
+        "Starts": "2025-12-19 07:00:00+00:00",
+        "Ends": "2025-12-19 12:00:00+00:00",
+        "Description": "SHES704 Créativité & Management de l'innovation (TD)\n\nIDU-4\nLE GOFF PERRINE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES704 Créativité & Management de l'innovation , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG801_PACY + 802",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2026-02-03 12:15:00+00:00",
+        "Ends": "2026-02-03 13:45:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\nCLARK JULIE\nDUPRE PAMELA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG801_PACY + 802",
+        "Location": "A-C111 (30pl.),A-C204 (24pl.),A-C205 (30pl.),A-B120 (150pl.)",
+        "Starts": "2026-01-13 12:15:00+00:00",
+        "Ends": "2026-01-13 13:45:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\nCLARK JULIE\nDUPRE PAMELA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA831_INGE_CM",
+        "Location": "A-C216 (30pl.)",
+        "Starts": "2026-02-11 14:00:00+00:00",
+        "Ends": "2026-02-11 15:30:00+00:00",
+        "Description": "DATA831 : Big Data (CM)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA831 : Big Data , N4IE01_191 , \n"
+    },
+    {
+        "Title": "Asie du Sud-Est : Industries Culturelles et Créatives et opportunités Internationales",
+        "Location": "",
+        "Starts": "2025-09-18 08:30:00+00:00",
+        "Ends": "2025-09-18 09:30:00+00:00",
+        "Description": " ()\n\nEvénement IDU-4\nEvénement-IDU-5\nSNI-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "DATA731_INGE_TP1",
+        "Location": "A-C216 (30pl.)",
+        "Starts": "2025-11-13 12:15:00+00:00",
+        "Ends": "2025-11-13 16:15:00+00:00",
+        "Description": "DATA731 Modélisation Stochastic (TP)\n\nIDU-4-A1\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA731 Modélisation Stochastic , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES703 BIBI SUR LA TOILE - CRÉEZ UN PROFIL LINKEDIN",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2025-10-16 09:30:00+00:00",
+        "Ends": "2025-10-16 11:00:00+00:00",
+        "Description": "SHES 703 Ressources et dynamique professionnelles (TD)\n\nIDU-4-A\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES 703 Ressources et dynamique professionnelles , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C204 (24pl.),A-C103 (30pl.),A-C205 (30pl.)",
+        "Starts": "2025-10-21 11:15:00+00:00",
+        "Ends": "2025-10-21 12:45:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_CM",
+        "Location": "A-C210 -Libre service (28pl.)",
+        "Starts": "2026-01-19 14:00:00+00:00",
+        "Ends": "2026-01-19 15:30:00+00:00",
+        "Description": "INFO834 Base de données distribuée (CM)\n\nIDU-4-Promo\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "ISOC731_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-11-12 09:00:00+00:00",
+        "Ends": "2025-11-12 10:30:00+00:00",
+        "Description": "ISOC731 Economie et gouvernance de la donnée (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC731 Economie et gouvernance de la donnée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_TD",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-10-16 06:30:00+00:00",
+        "Ends": "2025-10-16 08:00:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (TD)\n\nIDU-4-Promo\nMATHIEU PAUL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-11-25 14:00:00+00:00",
+        "Ends": "2025-11-25 15:30:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "ISOC731_INGE_CM",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-11-28 12:15:00+00:00",
+        "Ends": "2025-11-28 13:45:00+00:00",
+        "Description": "ISOC731 Economie et gouvernance de la donnée (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC731 Economie et gouvernance de la donnée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "[RI] Accueil Etudiants Etrangers S1 ACY",
+        "Location": "",
+        "Starts": "2025-09-26 09:30:00+00:00",
+        "Ends": "2025-09-26 10:30:00+00:00",
+        "Description": " (REUNION)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nSNI-4\nMECA-FISE-4\nIDU-5-Promo\nMMT-5\nSNI-5\nBROWNE CATHERINE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mercredi",
+        "Location": "",
+        "Starts": "2025-10-08 16:15:00+00:00",
+        "Ends": "2025-10-08 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "SHES802_INGE_CM_SST",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2026-02-06 09:00:00+00:00",
+        "Ends": "2026-02-06 10:30:00+00:00",
+        "Description": "SHES803 THO (CM)\n\nMECA-FISE-4\nIDU-4-Promo\nSNI-4\nPOUZADOUX PIERRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA731_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-10-24 06:15:00+00:00",
+        "Ends": "2025-10-24 07:45:00+00:00",
+        "Description": "DATA731 Modélisation Stochastic (CM)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA731 Modélisation Stochastic , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 lundi",
+        "Location": "",
+        "Starts": "2025-12-08 17:15:00+00:00",
+        "Ends": "2025-12-08 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG801_PACY + 802",
+        "Location": "A-B120 (150pl.),A-C209 (28pl.),A-C205 (30pl.),A-C203 (30pl.)",
+        "Starts": "2026-03-17 13:30:00+00:00",
+        "Ends": "2026-03-17 15:00:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nDUPRE PAMELA\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "[Club Entr.] Conférences métiers ACY",
+        "Location": "A-C103 (30pl.),A-C105 (40pl.),A-C107 (48pl.),A-C108 (40pl.),A-C109 (29pl.),A-C110 (29pl.)",
+        "Starts": "2026-04-28 11:15:00+00:00",
+        "Ends": "2026-04-28 14:30:00+00:00",
+        "Description": " (REUNION)\n\nIDU-4-Promo\nSNI-4\nMECA-FISE-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "LANG801_PACY + 802",
+        "Location": "A-B120 (150pl.),A-C209 (28pl.),A-C205 (30pl.),A-C204 (24pl.)",
+        "Starts": "2026-03-17 12:00:00+00:00",
+        "Ends": "2026-03-17 13:30:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nDUPRE PAMELA\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "[COM] Cérémonie remise diplômes ACY",
+        "Location": "",
+        "Starts": "2025-11-14 14:00:00+00:00",
+        "Ends": "2025-11-14 15:00:00+00:00",
+        "Description": " (REUNION)\n\nEPU-4\nEPU-5\nITII-4\nMECA-FISE-3\nIDU-3\nSNI-3\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mardi",
+        "Location": "",
+        "Starts": "2026-03-24 17:15:00+00:00",
+        "Ends": "2026-03-24 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_CM",
+        "Location": "A-C107 (48pl.)",
+        "Starts": "2025-09-17 13:00:00+00:00",
+        "Ends": "2025-09-17 14:30:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (CM)\n\nIDU-4-Promo\nSNI-4\nARNAEZ OLIVIER\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_TP1",
+        "Location": "A-C202 (24pl.)",
+        "Starts": "2025-12-04 12:15:00+00:00",
+        "Ends": "2025-12-04 16:15:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (TP)\n\nIDU-4-A1\nMARY HUET de BAROCHEZ ANDREW\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "ISOC831_Product_Management",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-04-16 07:00:00+00:00",
+        "Ends": "2026-04-16 10:00:00+00:00",
+        "Description": "ISOC831 Dimension métier (CM)\n\nIDU-4-Promo\nCHAPPART JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC831 Dimension métier , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_TP1",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2026-02-25 12:30:00+00:00",
+        "Ends": "2026-02-25 16:30:00+00:00",
+        "Description": "INFO834 Base de données distribuée (TP)\n\nIDU-4-A1\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_CM",
+        "Location": "A-C210 -Libre service (28pl.)",
+        "Starts": "2026-02-26 12:30:00+00:00",
+        "Ends": "2026-02-26 14:00:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (CM)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_CM",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-04-16 11:30:00+00:00",
+        "Ends": "2026-04-16 13:00:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (CM)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH_741_TD_IDU/SNI",
+        "Location": "A-C105 (40pl.)",
+        "Starts": "2025-12-10 14:00:00+00:00",
+        "Ends": "2025-12-10 15:30:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_TD",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2026-04-13 13:15:00+00:00",
+        "Ends": "2026-04-13 14:45:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (TD)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_EX",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-12-09 15:30:00+00:00",
+        "Ends": "2025-12-09 17:00:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (CM)\n\nIDU-4-Promo\nSNI-4\nKit d'évaluation\nexamen_Acy\nKit d'évaluation\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "Évaluation des Enseignements par les Étudiants (EEE)",
+        "Location": "A-A204 (28pl.)",
+        "Starts": "2026-01-14 12:15:00+00:00",
+        "Ends": "2026-01-14 13:45:00+00:00",
+        "Description": " ()\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "INFO832_INGE_TD",
+        "Location": "A-C109 (29pl.)",
+        "Starts": "2026-03-04 09:15:00+00:00",
+        "Ends": "2026-03-04 10:45:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (TD)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES802_INGE_TD-IDU-A-SST-1",
+        "Location": "A-A022 (22pl.)",
+        "Starts": "2026-02-24 07:15:00+00:00",
+        "Ends": "2026-02-24 08:45:00+00:00",
+        "Description": "SHES803 THO (TD)\n\nIDU-4-A\nPOUZADOUX PIERRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG700_PACY (soutien)",
+        "Location": "A-B014 (150pl.),A-C205 (30pl.)",
+        "Starts": "2025-09-18 12:00:00+00:00",
+        "Ends": "2025-09-18 12:45:00+00:00",
+        "Description": "LANG700 Anglais soutien (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nVIGNAND SYLVIE\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG700 Anglais soutien , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA831_INGE_CM",
+        "Location": "A-C208 (29pl.)",
+        "Starts": "2026-01-28 14:00:00+00:00",
+        "Ends": "2026-01-28 15:30:00+00:00",
+        "Description": "DATA831 : Big Data (CM)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA831 : Big Data , N4IE01_191 , \n"
+    },
+    {
+        "Title": "Bilan S8",
+        "Location": "A-C111 (30pl.)",
+        "Starts": "2026-05-05 13:00:00+00:00",
+        "Ends": "2026-05-05 14:30:00+00:00",
+        "Description": " (AUTRE ACTIVITE)\n\nIDU-4-A1\nIDU-4-A2\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 lundi",
+        "Location": "",
+        "Starts": "2025-12-01 17:15:00+00:00",
+        "Ends": "2025-12-01 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_TDTP",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-10-10 11:30:00+00:00",
+        "Ends": "2025-10-10 15:30:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (TD)\n\nIDU-4-Promo\nMATHIEU PAUL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES803_INGE_TD-IDU-A",
+        "Location": "A-A022 (22pl.)",
+        "Starts": "2026-03-24 14:00:00+00:00",
+        "Ends": "2026-03-24 15:30:00+00:00",
+        "Description": "SHES803 THO (TD)\n\nIDU-4-A\nWOLFF CHRISTIAN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES704_TD_LeGoff_Perrine",
+        "Location": "",
+        "Starts": "2025-12-15 06:30:00+00:00",
+        "Ends": "2025-12-15 11:30:00+00:00",
+        "Description": "SHES704 Créativité & Management de l'innovation (TD)\n\nIDU-4\nLE GOFF PERRINE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES704 Créativité & Management de l'innovation , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mercredi",
+        "Location": "",
+        "Starts": "2026-01-07 17:15:00+00:00",
+        "Ends": "2026-01-07 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "DATA831_INGE_TDTP",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2026-03-02 07:00:00+00:00",
+        "Ends": "2026-03-02 11:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nGALLET MATTHIEU\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_IDU",
+        "Location": "A-C209 (28pl.)",
+        "Starts": "2025-09-16 06:00:00+00:00",
+        "Ends": "2025-09-16 10:00:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (TD)\n\nIDU-4-Promo\nARNAEZ OLIVIER\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES704_TD_LeGoff_Perrine",
+        "Location": "",
+        "Starts": "2025-12-11 12:00:00+00:00",
+        "Ends": "2025-12-11 17:00:00+00:00",
+        "Description": "SHES704 Créativité & Management de l'innovation (TD)\n\nIDU-4\nLE GOFF PERRINE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES704 Créativité & Management de l'innovation , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-12-09 08:45:00+00:00",
+        "Ends": "2025-12-09 10:15:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES803_INGE_CM",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2026-02-13 07:15:00+00:00",
+        "Ends": "2026-02-13 08:45:00+00:00",
+        "Description": "SHES803 THO (CM)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVALISE EPU-A-1\nVALISE EPU-A-2\nWOLFF CHRISTIAN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_Exam",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2026-04-14 14:45:00+00:00",
+        "Ends": "2026-04-14 16:15:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (CM)\n\nIDU-4-Promo\nexamen_Acy\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO734_INGE_CM",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-11-03 12:15:00+00:00",
+        "Ends": "2025-11-03 13:45:00+00:00",
+        "Description": "INFO734 Développement Full Stack (CM)\n\nIDU-4-Promo\nMIAN AMMAR\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO734 Développement Full Stack , N4IE01_191 , \n"
+    },
+    {
+        "Title": "PROJ731_INGE_APP",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-01-05 07:00:00+00:00",
+        "Ends": "2026-01-05 11:00:00+00:00",
+        "Description": "PROJ731_IDU APP Analyse et visualisation de données (TD)\n\nIDU-4-A\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ731_IDU APP Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "ISOC831_Product_Management",
+        "Location": "A-C216 (30pl.)",
+        "Starts": "2026-04-13 07:00:00+00:00",
+        "Ends": "2026-04-13 10:00:00+00:00",
+        "Description": "ISOC831 Dimension métier (CM)\n\nIDU-4-Promo\nCHAPPART JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC831 Dimension métier , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_TD",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2025-09-09 08:00:00+00:00",
+        "Ends": "2025-09-09 09:30:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (TD)\n\nIDU-4-Promo\nFERRER ROMAIN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES803_INGE_TD-IDU-A",
+        "Location": "A-C109 (29pl.)",
+        "Starts": "2026-02-25 09:00:00+00:00",
+        "Ends": "2026-02-25 10:30:00+00:00",
+        "Description": "SHES803 THO (TD)\n\nIDU-4-A\nWOLFF CHRISTIAN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA731_INGE_TP1",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-01-09 07:00:00+00:00",
+        "Ends": "2026-01-09 11:00:00+00:00",
+        "Description": "DATA731 Modélisation Stochastic (TP)\n\nIDU-4-A1\nGALLET MATTHIEU\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA731 Modélisation Stochastic , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_CM",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-10-13 13:00:00+00:00",
+        "Ends": "2025-10-13 14:30:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (CM)\n\nIDU-4-Promo\nMATHIEU PAUL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mardi",
+        "Location": "",
+        "Starts": "2026-03-17 17:15:00+00:00",
+        "Ends": "2026-03-17 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_CM",
+        "Location": "A-C202 (24pl.)",
+        "Starts": "2025-12-01 09:00:00+00:00",
+        "Ends": "2025-12-01 10:30:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C204 (24pl.),A-C103 (30pl.),A-C205 (30pl.)",
+        "Starts": "2025-10-21 12:45:00+00:00",
+        "Ends": "2025-10-21 14:15:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA831_INGE_TDTP",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-02-09 12:00:00+00:00",
+        "Ends": "2026-02-09 16:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA832_INGE_CM",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2026-03-16 07:15:00+00:00",
+        "Ends": "2026-03-16 08:45:00+00:00",
+        "Description": "DATA832 Machine learning 1 (CM)\n\nIDU-4-Promo\nGALLET MATTHIEU\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "Rentrée FISE4 - Spé",
+        "Location": "A-C107 (48pl.),A-B014 (150pl.),A-C103 (30pl.),A-C104 (29pl.)",
+        "Starts": "2025-09-01 07:00:00+00:00",
+        "Ends": "2025-09-01 07:45:00+00:00",
+        "Description": " (ACCUEIL-RENTREE)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nSALAMATIAN MOHAMMAD-REZA\nMIAN AMMAR\nYAN YAJING\nVERNIER FLAVIEN\nFAVRELIERE HUGUES\nBADEL ADRIEN\nGIBUS DAVID\nROUX EMILE\nPAIREL ERIC\nScolarité 1\n\n1726497763493\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "INFO734_INGE_CM",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2025-12-17 09:00:00+00:00",
+        "Ends": "2025-12-17 10:30:00+00:00",
+        "Description": "INFO734 Développement Full Stack (CM)\n\nIDU-4-Promo\nMIAN AMMAR\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO734 Développement Full Stack , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_TD_IDU",
+        "Location": "A-C111 (30pl.)",
+        "Starts": "2025-09-17 06:15:00+00:00",
+        "Ends": "2025-09-17 07:45:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (TD)\n\nIDU-4-Promo\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_TDTP",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2025-10-15 06:00:00+00:00",
+        "Ends": "2025-10-15 10:00:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (TD)\n\nIDU-4-Promo\nMATHIEU PAUL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG800_PACY (soutien)",
+        "Location": "A-C205 (30pl.),A-B120 (150pl.)",
+        "Starts": "2026-04-02 12:30:00+00:00",
+        "Ends": "2026-04-02 13:15:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nSELLIER KATRINE\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES703 MON ENVIRONNEMENT PROFESSIONNEL",
+        "Location": "A-C213 (32pl.),A-C111 (30pl.)",
+        "Starts": "2025-09-17 08:00:00+00:00",
+        "Ends": "2025-09-17 09:30:00+00:00",
+        "Description": "SHES703 Communication - Ressources et dynamique personnelles et professionnelles (TD)\n\nIDU-4-A\nMISLIN CAROLE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES703 Communication - Ressources et dynamique personnelles et professionnelles , NTRANS_210 , \n"
+    },
+    {
+        "Title": "PROJ832_INGE_Projet",
+        "Location": "A-C202 (24pl.)",
+        "Starts": "2026-05-04 13:00:00+00:00",
+        "Ends": "2026-05-04 17:00:00+00:00",
+        "Description": "PROJ832 Flux de Données et Accès Concurrents (TP)\n\nIDU-4-A\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ832 Flux de Données et Accès Concurrents , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-11-04 12:15:00+00:00",
+        "Ends": "2025-11-04 13:45:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 lundi",
+        "Location": "",
+        "Starts": "2025-11-24 17:15:00+00:00",
+        "Ends": "2025-11-24 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_CM",
+        "Location": "A-C105 (40pl.)",
+        "Starts": "2025-09-15 13:00:00+00:00",
+        "Ends": "2025-09-15 14:30:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (CM)\n\nIDU-4-Promo\nSNI-4\nARNAEZ OLIVIER\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG801_PACY + 802",
+        "Location": "A-C104 (29pl.),A-C111 (30pl.),A-C204 (24pl.),A-B120 (150pl.)",
+        "Starts": "2026-03-03 13:45:00+00:00",
+        "Ends": "2026-03-03 15:15:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\nCLARK JULIE\nDUPRE PAMELA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C205 (30pl.),A-B120 (150pl.),A-C204 (24pl.),A-C111 (30pl.)",
+        "Starts": "2025-09-23 11:15:00+00:00",
+        "Ends": "2025-09-23 12:45:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nCLARK JULIE\nVIGNAND SYLVIE\nDUPRE PAMELA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_CM",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-10-03 11:15:00+00:00",
+        "Ends": "2025-10-03 12:45:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_TD_SNI",
+        "Location": "A-C202 (24pl.)",
+        "Starts": "2026-01-05 12:30:00+00:00",
+        "Ends": "2026-01-05 16:30:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (TD)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mercredi",
+        "Location": "",
+        "Starts": "2026-02-04 17:15:00+00:00",
+        "Ends": "2026-02-04 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG700_PACY (soutien)",
+        "Location": "A-C205 (30pl.),A-C204 (24pl.)",
+        "Starts": "2025-10-02 13:00:00+00:00",
+        "Ends": "2025-10-02 13:45:00+00:00",
+        "Description": "LANG700 Anglais soutien (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG700 Anglais soutien , NTRANS_210 , \n"
+    },
+    {
+        "Title": "PROJ731_INGE_APP",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2025-11-24 07:00:00+00:00",
+        "Ends": "2025-11-24 11:00:00+00:00",
+        "Description": "PROJ731_IDU APP Analyse et visualisation de données (TD)\n\nIDU-4-A\nMATHIEU PAUL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ731_IDU APP Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "PROJ731_INGE_APP",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2025-11-07 07:00:00+00:00",
+        "Ends": "2025-11-07 11:00:00+00:00",
+        "Description": "PROJ731_IDU APP Analyse et visualisation de données (TD)\n\nIDU-4-A\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ731_IDU APP Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_Proj",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2025-10-22 06:00:00+00:00",
+        "Ends": "2025-10-22 10:00:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (TD)\n\nIDU-4-A\nMATHIEU PAUL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG800_PACY (soutien)",
+        "Location": "A-C205 (30pl.),A-B120 (150pl.)",
+        "Starts": "2026-01-22 12:45:00+00:00",
+        "Ends": "2026-01-22 13:30:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nSELLIER KATRINE\nVIGNAND SYLVIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mercredi",
+        "Location": "",
+        "Starts": "2026-01-28 17:15:00+00:00",
+        "Ends": "2026-01-28 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "MATH_741_TD_IDU/SNI",
+        "Location": "A-C109 (29pl.)",
+        "Starts": "2025-10-08 13:00:00+00:00",
+        "Ends": "2025-10-08 14:30:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , NTRANS_210 , \n"
+    },
+    {
+        "Title": "PROJ832_INGE_Projet",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2026-04-29 06:00:00+00:00",
+        "Ends": "2026-04-29 10:00:00+00:00",
+        "Description": "PROJ832 Flux de Données et Accès Concurrents (TP)\n\nIDU-4-A\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ832 Flux de Données et Accès Concurrents , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA731_INGE_TP1",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-11-26 12:00:00+00:00",
+        "Ends": "2025-11-26 16:00:00+00:00",
+        "Description": "DATA731 Modélisation Stochastic (TP)\n\nIDU-4-A1\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA731 Modélisation Stochastic , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_TD",
+        "Location": "A-C105 (40pl.)",
+        "Starts": "2026-03-10 07:15:00+00:00",
+        "Ends": "2026-03-10 08:45:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (TD)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "Présentation possibilité stages FI4 en Indonésie",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-10-20 10:30:00+00:00",
+        "Ends": "2025-10-20 11:00:00+00:00",
+        "Description": " (REUNION)\n\nMECA-FISE-4\nIDU-4\nSNI-4\nBOILEAU HERVÉ\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , E42972-971 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_TD",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2025-11-07 12:15:00+00:00",
+        "Ends": "2025-11-07 13:45:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (TD)\n\nIDU-4-Promo\nCIMPAN SORANA\n\n1726497766164\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mercredi",
+        "Location": "",
+        "Starts": "2026-01-21 17:15:00+00:00",
+        "Ends": "2026-01-21 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "PROJ731_INGE_APP",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-01-08 12:30:00+00:00",
+        "Ends": "2026-01-08 16:30:00+00:00",
+        "Description": "PROJ731_IDU APP Analyse et visualisation de données (TD)\n\nIDU-4-A\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ731_IDU APP Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mardi",
+        "Location": "",
+        "Starts": "2026-03-31 16:15:00+00:00",
+        "Ends": "2026-03-31 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "DATA832_INGE_CM",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2026-03-12 07:15:00+00:00",
+        "Ends": "2026-03-12 08:45:00+00:00",
+        "Description": "DATA832 Machine learning 1 (CM)\n\nIDU-4-Promo\nGALLET MATTHIEU\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_TD",
+        "Location": "A-C209 (28pl.)",
+        "Starts": "2026-02-09 07:15:00+00:00",
+        "Ends": "2026-02-09 08:45:00+00:00",
+        "Description": "INFO834 Base de données distribuée (TD)\n\nIDU-4-Promo\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mardi",
+        "Location": "",
+        "Starts": "2026-01-06 17:15:00+00:00",
+        "Ends": "2026-01-06 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "Prévention - BDE - Amphi B014",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-09-10 09:45:00+00:00",
+        "Ends": "2025-09-10 10:45:00+00:00",
+        "Description": " (ACTIVITE ASSOCIATIVE)\n\nEPU-3\nEPU-1-S1-PEIPA\nEPU-2-S3-PEIPA\nIDU-4\nSNI-4\nMECA-FISE-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 lundi",
+        "Location": "",
+        "Starts": "2026-02-02 17:15:00+00:00",
+        "Ends": "2026-02-02 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 lundi",
+        "Location": "",
+        "Starts": "2025-11-17 17:15:00+00:00",
+        "Ends": "2025-11-17 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "[Resp. Etudes] Journée Nationale du Réserviste ACY (Info)",
+        "Location": "",
+        "Starts": "2025-10-01 10:00:00+00:00",
+        "Ends": "2025-10-01 10:15:00+00:00",
+        "Description": " (REUNION)\n\nEPU-1-S1-PEIPA\nEPU-2-S3-PEIPA\nEPU-5\nEPU-3\nEPU-4\nITII-3\nITII-4\nITII-5\nITII-6\nMaster_AM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "INFO743_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-10-02 11:15:00+00:00",
+        "Ends": "2025-10-02 12:45:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (CM)\n\nIDU-4-Promo\nSNI-4\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_TD",
+        "Location": "A-C208 (29pl.)",
+        "Starts": "2026-01-26 14:00:00+00:00",
+        "Ends": "2026-01-26 15:30:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (TD)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 lundi",
+        "Location": "",
+        "Starts": "2025-11-10 17:15:00+00:00",
+        "Ends": "2025-11-10 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_CM",
+        "Location": "A-C108 (40pl.)",
+        "Starts": "2026-02-13 09:00:00+00:00",
+        "Ends": "2026-02-13 10:30:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (CM)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-10-20 13:00:00+00:00",
+        "Ends": "2025-10-20 14:30:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (CM)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "PROJ831_INGE_TPD",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-03-18 07:00:00+00:00",
+        "Ends": "2026-03-18 11:00:00+00:00",
+        "Description": "PROJ831 Projet Informatique Données et Usages (TD)\n\nIDU-4-A\nIngénieur Polylab\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ831 Projet Informatique Données et Usages , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 lundi",
+        "Location": "",
+        "Starts": "2026-01-26 17:15:00+00:00",
+        "Ends": "2026-01-26 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG801_PACY stage toeic avril+ cours 802",
+        "Location": "A-B120 (150pl.),A-C204 (24pl.),A-C205 (30pl.),A-C209 (28pl.)",
+        "Starts": "2026-04-20 10:30:00+00:00",
+        "Ends": "2026-04-20 13:30:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nCLARK JULIE\nDUPRE PAMELA\nVIGNAND SYLVIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-09-08 06:15:00+00:00",
+        "Ends": "2025-09-08 07:45:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (CM)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_CM",
+        "Location": "A-C107 (48pl.)",
+        "Starts": "2025-09-04 06:15:00+00:00",
+        "Ends": "2025-09-04 07:45:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (CM)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n1726497766362\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_TD",
+        "Location": "A-C202 (24pl.)",
+        "Starts": "2026-03-24 12:15:00+00:00",
+        "Ends": "2026-03-24 13:45:00+00:00",
+        "Description": "INFO834 Base de données distribuée (TD)\n\nIDU-4-Promo\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_CM",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2026-03-11 14:30:00+00:00",
+        "Ends": "2026-03-11 16:00:00+00:00",
+        "Description": "INFO834 Base de données distribuée (CM)\n\nIDU-4-Promo\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA832_INGE_TD",
+        "Location": "A-C216 (30pl.)",
+        "Starts": "2026-03-12 09:00:00+00:00",
+        "Ends": "2026-03-12 10:30:00+00:00",
+        "Description": "DATA832 Machine learning 1 (TD)\n\nIDU-4-Promo\nGALLET MATTHIEU\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES803_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2026-03-24 07:15:00+00:00",
+        "Ends": "2026-03-24 08:45:00+00:00",
+        "Description": "SHES803 THO (CM)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nAnnecy sans boitier\nVALISE EPU-A-2\nWOLFF CHRISTIAN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_TP1",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2026-02-24 12:30:00+00:00",
+        "Ends": "2026-02-24 16:30:00+00:00",
+        "Description": "INFO834 Base de données distribuée (TP)\n\nIDU-4-A1\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_CM",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2026-04-13 15:00:00+00:00",
+        "Ends": "2026-04-13 16:30:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (CM)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES704_TD_LeGoff_Perrine",
+        "Location": "",
+        "Starts": "2025-12-19 12:15:00+00:00",
+        "Ends": "2025-12-19 17:15:00+00:00",
+        "Description": "SHES704 Créativité & Management de l'innovation (TD)\n\nIDU-4\nLE GOFF PERRINE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES704 Créativité & Management de l'innovation , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_IDU",
+        "Location": "A-C216 (30pl.)",
+        "Starts": "2025-09-29 06:15:00+00:00",
+        "Ends": "2025-09-29 10:15:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (TD)\n\nIDU-4-Promo\nMARY HUET de BAROCHEZ ANDREW\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES703 MON PROJET PROFESSIONNEL",
+        "Location": "A-C110 (29pl.),A-C111 (30pl.)",
+        "Starts": "2025-09-22 08:00:00+00:00",
+        "Ends": "2025-09-22 09:30:00+00:00",
+        "Description": "SHES 703 Ressources et dynamique Professionnelles (TD)\n\nIDU-4-A\nDELTOUR QUENTIN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES 703 Ressources et dynamique Professionnelles , NTRANS_210 , \n"
+    },
+    {
+        "Title": "ISOC831_Ingénieur BI",
+        "Location": "A-C216 (30pl.)",
+        "Starts": "2026-04-30 11:30:00+00:00",
+        "Ends": "2026-04-30 15:00:00+00:00",
+        "Description": "ISOC831 Dimension métier (CM)\n\nIDU-4-Promo\nPONCELIN de RAUCOURT SONIA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC831 Dimension métier , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_EX",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2026-01-07 08:45:00+00:00",
+        "Ends": "2026-01-07 10:15:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (CM)\n\nIDU-4-Promo\nexamen_Acy\nCIMPAN SORANA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "[RE] Simulations d'entretien ACY",
+        "Location": "A-C203 (30pl.),A-C204 (24pl.),A-C103 (30pl.),A-C104 (29pl.),A-C105 (40pl.),A-C107 (48pl.),A-C108 (40pl.),A-C109 (29pl.),A-C110 (29pl.),A-C111 (30pl.)",
+        "Starts": "2025-12-12 07:00:00+00:00",
+        "Ends": "2025-12-12 17:00:00+00:00",
+        "Description": " (REUNION)\n\nEPU-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "MATH_741_TD_IDU/SNI",
+        "Location": "A-C107 (48pl.)",
+        "Starts": "2025-12-03 14:00:00+00:00",
+        "Ends": "2025-12-03 15:30:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_CM",
+        "Location": "A-C210 -Libre service (28pl.)",
+        "Starts": "2026-02-11 07:15:00+00:00",
+        "Ends": "2026-02-11 08:45:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (CM)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "PROJ831_INGE_TPD",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2026-04-28 06:00:00+00:00",
+        "Ends": "2026-04-28 10:00:00+00:00",
+        "Description": "PROJ831 Projet Informatique Données et Usages (TD)\n\nIDU-4-A\nIngénieur Polylab\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ831 Projet Informatique Données et Usages , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_TD",
+        "Location": "A-C109 (29pl.)",
+        "Starts": "2026-03-10 09:00:00+00:00",
+        "Ends": "2026-03-10 10:30:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (TD)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_TD",
+        "Location": "A-C105 (40pl.)",
+        "Starts": "2026-02-23 07:15:00+00:00",
+        "Ends": "2026-02-23 08:45:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (TD)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA832_INGE_TD",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2026-03-05 09:15:00+00:00",
+        "Ends": "2026-03-05 10:45:00+00:00",
+        "Description": "DATA832 Machine learning 1 (TD)\n\nIDU-4-Promo\nBENOIT ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-11-25 12:15:00+00:00",
+        "Ends": "2025-11-25 13:45:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-B120 (150pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-09-03 10:45:00+00:00",
+        "Ends": "2025-09-03 12:15:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "ISOC831_Sopra_PowerBI",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-02-04 07:30:00+00:00",
+        "Ends": "2026-02-04 11:00:00+00:00",
+        "Description": "ISOC831 Dimension métier (CM - BENE)\n\nIDU-4-Promo\nLE PAPE Jean-Louis (Bénévole)\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC831 Dimension métier , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mercredi",
+        "Location": "",
+        "Starts": "2026-01-14 17:15:00+00:00",
+        "Ends": "2026-01-14 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 lundi",
+        "Location": "",
+        "Starts": "2026-02-23 17:15:00+00:00",
+        "Ends": "2026-02-23 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG801_PACY stage toeic avril+ cours 802",
+        "Location": "A-B120 (150pl.),A-C204 (24pl.),A-C205 (30pl.),A-C209 (28pl.)",
+        "Starts": "2026-04-21 10:30:00+00:00",
+        "Ends": "2026-04-21 13:30:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nCLARK JULIE\nDUPRE PAMELA\nVIGNAND SYLVIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG801_PACY stage toeic avril+ cours 802",
+        "Location": "A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.),A-C209 (28pl.)",
+        "Starts": "2026-04-21 06:15:00+00:00",
+        "Ends": "2026-04-21 09:15:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nCLARK JULIE\nDUPRE PAMELA\nVIGNAND SYLVIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "ISOC731_INGE_CM",
+        "Location": "A-C204 (24pl.),A-A204 (28pl.)",
+        "Starts": "2026-01-14 14:00:00+00:00",
+        "Ends": "2026-01-14 16:30:00+00:00",
+        "Description": "ISOC731 Economie et gouvernance de la donnée (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC731 Economie et gouvernance de la donnée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "PROJ831_INGE_TPD",
+        "Location": "A-C209 (28pl.)",
+        "Starts": "2026-04-03 11:15:00+00:00",
+        "Ends": "2026-04-03 15:15:00+00:00",
+        "Description": "PROJ831 Projet Informatique Données et Usages (TD)\n\nIDU-4-A\nIngénieur Polylab\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ831 Projet Informatique Données et Usages , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_TP1",
+        "Location": "A-C209 (28pl.)",
+        "Starts": "2025-11-28 07:00:00+00:00",
+        "Ends": "2025-11-28 11:00:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (TP)\n\nIDU-4-A1\nMARY HUET de BAROCHEZ ANDREW\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_EX_TIERS_TEMPS",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2026-01-07 10:15:00+00:00",
+        "Ends": "2026-01-07 10:45:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (CM)\n\nIDU-4-Promo\nCIMPAN SORANA\nexamen_Acy\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_Proj",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-01-14 07:00:00+00:00",
+        "Ends": "2026-01-14 11:00:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (TD)\n\nIDU-4-A\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG800_PACY (soutien)",
+        "Location": "A-C205 (30pl.),A-B120 (150pl.)",
+        "Starts": "2026-01-22 14:15:00+00:00",
+        "Ends": "2026-01-22 15:00:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nSELLIER KATRINE\nVIGNAND SYLVIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "[DAR] Journée présentation des métiers R&D - Annecy (Réservation)",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-09-30 06:00:00+00:00",
+        "Ends": "2025-09-30 16:00:00+00:00",
+        "Description": " (REUNION)\n\nITII-4\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "INFO743_INGE_CM",
+        "Location": "A-C108 (40pl.)",
+        "Starts": "2025-09-29 13:00:00+00:00",
+        "Ends": "2025-09-29 14:30:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (CM)\n\nIDU-4-Promo\nSNI-4\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 lundi",
+        "Location": "",
+        "Starts": "2026-01-05 17:15:00+00:00",
+        "Ends": "2026-01-05 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG700_PACY (soutien)",
+        "Location": "A-C205 (30pl.),A-C204 (24pl.)",
+        "Starts": "2025-10-02 13:45:00+00:00",
+        "Ends": "2025-10-02 14:30:00+00:00",
+        "Description": "LANG700 Anglais soutien (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG700 Anglais soutien , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES803_INGE_TD-IDU-A",
+        "Location": "A-C110 (29pl.)",
+        "Starts": "2026-02-13 15:45:00+00:00",
+        "Ends": "2026-02-13 17:15:00+00:00",
+        "Description": "SHES803 THO (TD)\n\nIDU-4-A\nWOLFF CHRISTIAN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-09-16 13:00:00+00:00",
+        "Ends": "2025-09-16 14:30:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "Présentation contrats pro",
+        "Location": "A-A204 (28pl.)",
+        "Starts": "2026-01-20 08:00:00+00:00",
+        "Ends": "2026-01-20 09:00:00+00:00",
+        "Description": " (REUNION)\n\nIDU-4-A1\nIDU-4-A2\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "DATA731_INGE_CM",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-12-10 07:15:00+00:00",
+        "Ends": "2025-12-10 08:45:00+00:00",
+        "Description": "DATA731 Modélisation Stochastic (CM)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA731 Modélisation Stochastic , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_EX_Session2",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2026-03-23 07:15:00+00:00",
+        "Ends": "2026-03-23 08:45:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (EXAMEN SESSION 2)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\nexamen_Acy\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES803_INGE_TD-IDU-A",
+        "Location": "A-C203 (30pl.)",
+        "Starts": "2026-03-04 15:45:00+00:00",
+        "Ends": "2026-03-04 17:15:00+00:00",
+        "Description": "SHES803 THO (TD)\n\nIDU-4-A\nWOLFF CHRISTIAN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 lundi",
+        "Location": "",
+        "Starts": "2025-10-20 16:15:00+00:00",
+        "Ends": "2025-10-20 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG801_PACY + 802",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-B120 (150pl.)",
+        "Starts": "2026-03-10 14:00:00+00:00",
+        "Ends": "2026-03-10 15:30:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\nCLARK JULIE\nDUPRE PAMELA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG800_PACY (soutien)",
+        "Location": "A-C205 (30pl.),A-B120 (150pl.)",
+        "Starts": "2026-01-22 12:00:00+00:00",
+        "Ends": "2026-01-22 12:45:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nSELLIER KATRINE\nVIGNAND SYLVIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_TPTD",
+        "Location": "A-C209 (28pl.)",
+        "Starts": "2026-04-30 06:00:00+00:00",
+        "Ends": "2026-04-30 10:00:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (TD)\n\nIDU-4-A\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mardi",
+        "Location": "",
+        "Starts": "2025-12-09 17:15:00+00:00",
+        "Ends": "2025-12-09 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nMECA-FISE-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO734_INGE_CM",
+        "Location": "A-C216 (30pl.)",
+        "Starts": "2025-12-10 09:00:00+00:00",
+        "Ends": "2025-12-10 10:30:00+00:00",
+        "Description": "INFO734 Développement Full Stack (CM)\n\nIDU-4-Promo\nMIAN AMMAR\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO734 Développement Full Stack , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_EX Tiers temps",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2026-01-13 10:45:00+00:00",
+        "Ends": "2026-01-13 11:15:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (EXAMEN)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "[Club Entr.] Semaine Emploi & Entreprise ACY (Matin)",
+        "Location": "",
+        "Starts": "2025-11-25 08:00:00+00:00",
+        "Ends": "2025-11-25 11:00:00+00:00",
+        "Description": " (REUNION)\n\nMaster_AM\nEPU-2-S3-PEIPA\nEPU-1-S1-PEIPA\nIDU-4\nMECA-FISE-4\nSNI-4\nSNI4-étudiant(e)s\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mercredi",
+        "Location": "",
+        "Starts": "2026-03-18 17:15:00+00:00",
+        "Ends": "2026-03-18 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_CM",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-09-02 13:00:00+00:00",
+        "Ends": "2025-09-02 14:30:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (CM)\n\nIDU-4-Promo\nCIMPAN SORANA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA832_INGE_CM",
+        "Location": "A-A204 (28pl.)",
+        "Starts": "2026-03-11 09:30:00+00:00",
+        "Ends": "2026-03-11 11:00:00+00:00",
+        "Description": "DATA832 Machine learning 1 (CM)\n\nIDU-4-Promo\nBENOIT ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA831_INGE_CM",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2026-01-26 07:15:00+00:00",
+        "Ends": "2026-01-26 08:45:00+00:00",
+        "Description": "DATA831 : Big Data (CM)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA831 : Big Data , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH_741_TD_IDU/SNI",
+        "Location": "A-C203 (30pl.)",
+        "Starts": "2025-12-18 07:00:00+00:00",
+        "Ends": "2025-12-18 08:30:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mercredi",
+        "Location": "",
+        "Starts": "2026-03-11 17:15:00+00:00",
+        "Ends": "2026-03-11 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "[RI] Réunion Info. Mobilité ACY FI4",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-09-05 09:30:00+00:00",
+        "Ends": "2025-09-05 10:30:00+00:00",
+        "Description": " (REUNION)\n\nEPU-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "INFO832_INGE_TD",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-03-16 14:30:00+00:00",
+        "Ends": "2026-03-16 16:00:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (TD)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_TP1",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-11-14 07:00:00+00:00",
+        "Ends": "2025-11-14 11:00:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (TP)\n\nIDU-4-A1\nMARY HUET de BAROCHEZ ANDREW\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-11-18 14:00:00+00:00",
+        "Ends": "2025-11-18 15:30:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES703 SHERLOCK",
+        "Location": "A-C103 (30pl.)",
+        "Starts": "2025-10-09 08:00:00+00:00",
+        "Ends": "2025-10-09 09:30:00+00:00",
+        "Description": "SHES 703 Ressources et dynamique Professionnelles (TD)\n\nIDU-4-A\nDELTOUR QUENTIN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES 703 Ressources et dynamique Professionnelles , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 lundi",
+        "Location": "",
+        "Starts": "2025-11-03 17:15:00+00:00",
+        "Ends": "2025-11-03 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "MATH_741_TD_IDU/SNI",
+        "Location": "A-C107 (48pl.)",
+        "Starts": "2025-10-24 14:45:00+00:00",
+        "Ends": "2025-10-24 16:15:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES803_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2026-02-27 07:15:00+00:00",
+        "Ends": "2026-02-27 08:45:00+00:00",
+        "Description": "SHES803 THO (CM)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nAnnecy sans boitier\nWOLFF CHRISTIAN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "ISOC731_INGE_CM",
+        "Location": "A-C111 (30pl.)",
+        "Starts": "2025-09-02 08:00:00+00:00",
+        "Ends": "2025-09-02 09:30:00+00:00",
+        "Description": "ISOC731 Economie et gouvernance de la donnée (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC731 Economie et gouvernance de la donnée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-12-09 07:15:00+00:00",
+        "Ends": "2025-12-09 08:45:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_TD",
+        "Location": "A-C216 (30pl.)",
+        "Starts": "2026-02-06 12:15:00+00:00",
+        "Ends": "2026-02-06 13:45:00+00:00",
+        "Description": "INFO834 Base de données distribuée (TD)\n\nIDU-4-Promo\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_TP1",
+        "Location": "A-C209 (28pl.)",
+        "Starts": "2026-03-06 07:00:00+00:00",
+        "Ends": "2026-03-06 11:00:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (TP)\n\nIDU-4-A1\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_TDTP",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2025-10-23 11:15:00+00:00",
+        "Ends": "2025-10-23 15:15:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (TD)\n\nIDU-4-Promo\nMATHIEU PAUL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG700_PACY (soutien)",
+        "Location": "A-B014 (150pl.),A-C205 (30pl.)",
+        "Starts": "2025-09-18 12:45:00+00:00",
+        "Ends": "2025-09-18 13:30:00+00:00",
+        "Description": "LANG700 Anglais soutien (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nVIGNAND SYLVIE\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG700 Anglais soutien , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES803_INGE_TD-IDU-A",
+        "Location": "A-C208 (29pl.)",
+        "Starts": "2026-02-27 09:00:00+00:00",
+        "Ends": "2026-02-27 10:30:00+00:00",
+        "Description": "SHES803 THO (TD)\n\nIDU-4-A\nWOLFF CHRISTIAN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_TD",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-04-16 13:15:00+00:00",
+        "Ends": "2026-04-16 14:45:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (TD)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_TD",
+        "Location": "A-C104 (29pl.)",
+        "Starts": "2026-04-14 11:30:00+00:00",
+        "Ends": "2026-04-14 13:00:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (TD)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mardi",
+        "Location": "",
+        "Starts": "2025-11-25 17:15:00+00:00",
+        "Ends": "2025-11-25 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nMECA-FISE-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_CM",
+        "Location": "A-C105 (40pl.)",
+        "Starts": "2025-09-08 13:00:00+00:00",
+        "Ends": "2025-09-08 14:30:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (CM)\n\nIDU-4-Promo\nSNI-4\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG801_PACY + 802",
+        "Location": "A-C104 (29pl.),A-C111 (30pl.),A-C204 (24pl.),A-B120 (150pl.)",
+        "Starts": "2026-03-03 12:00:00+00:00",
+        "Ends": "2026-03-03 13:30:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\nCLARK JULIE\nDUPRE PAMELA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_TP1",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-03-12 12:30:00+00:00",
+        "Ends": "2026-03-12 16:30:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (TP)\n\nIDU-4-A1\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mardi",
+        "Location": "",
+        "Starts": "2025-10-21 16:15:00+00:00",
+        "Ends": "2025-10-21 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nMECA-FISE-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG701_PACY stage toeic",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-12-09 11:45:00+00:00",
+        "Ends": "2025-12-09 14:45:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mercredi",
+        "Location": "",
+        "Starts": "2025-12-03 17:15:00+00:00",
+        "Ends": "2025-12-03 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_CM",
+        "Location": "A-C203 (30pl.)",
+        "Starts": "2025-09-05 07:45:00+00:00",
+        "Ends": "2025-09-05 09:15:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG801_PACY + 802",
+        "Location": "A-C111 (30pl.),A-C204 (24pl.),A-C205 (30pl.),A-B120 (150pl.)",
+        "Starts": "2026-01-13 13:45:00+00:00",
+        "Ends": "2026-01-13 15:15:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\nCLARK JULIE\nDUPRE PAMELA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mardi",
+        "Location": "",
+        "Starts": "2025-12-02 17:15:00+00:00",
+        "Ends": "2025-12-02 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nMECA-FISE-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_CM",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-10-20 08:00:00+00:00",
+        "Ends": "2025-10-20 09:30:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (CM)\n\nIDU-4-Promo\nCIMPAN SORANA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_TD",
+        "Location": "A-C210 -Libre service (28pl.)",
+        "Starts": "2026-02-13 12:30:00+00:00",
+        "Ends": "2026-02-13 14:00:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (TD)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES703 Stage découverte - Soutenance stage A1",
+        "Location": "A-A022 (22pl.),Distanciel,A-C103 (30pl.),A-C104 (29pl.)",
+        "Starts": "2025-11-21 07:00:00+00:00",
+        "Ends": "2025-11-21 10:30:00+00:00",
+        "Description": " (TD)\n\nIDU-4-A1\nMISLIN CAROLE\nFORMOSA FABIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-11-12 15:45:00+00:00",
+        "Ends": "2025-11-12 17:15:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (CM)\n\nIDU-4-Promo\nSNI-4\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA731_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-11-27 07:00:00+00:00",
+        "Ends": "2025-11-27 08:30:00+00:00",
+        "Description": "DATA731 Modélisation Stochastic (CM)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA731 Modélisation Stochastic , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 lundi",
+        "Location": "",
+        "Starts": "2025-10-13 16:15:00+00:00",
+        "Ends": "2025-10-13 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "ISOC831_Sopra_Urba_Archi",
+        "Location": "A-C216 (30pl.)",
+        "Starts": "2026-03-18 13:00:00+00:00",
+        "Ends": "2026-03-18 16:30:00+00:00",
+        "Description": "ISOC831 Dimension métier (CM)\n\nIDU-4-Promo\nVARLOOT GABRIELLE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC831 Dimension métier , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA832_INGE_TPTD_2h",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2026-03-19 12:00:00+00:00",
+        "Ends": "2026-03-19 14:00:00+00:00",
+        "Description": "DATA832 Machine learning 1 (TD)\n\nIDU-4-A1\nIDU-4-A2\nGALLET MATTHIEU\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_TDTP",
+        "Location": "A-C210 -Libre service (28pl.)",
+        "Starts": "2025-10-01 06:00:00+00:00",
+        "Ends": "2025-10-01 10:00:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (TD)\n\nIDU-4-Promo\nMATHIEU PAUL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA731_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-11-07 14:00:00+00:00",
+        "Ends": "2025-11-07 15:30:00+00:00",
+        "Description": "DATA731 Modélisation Stochastic (CM)\n\nIDU-4-Promo\nGALLET MATTHIEU\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA731 Modélisation Stochastic , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG700_PACY (soutien)",
+        "Location": "A-C205 (30pl.),A-C204 (24pl.)",
+        "Starts": "2025-09-25 13:00:00+00:00",
+        "Ends": "2025-09-25 13:45:00+00:00",
+        "Description": "LANG700 Anglais soutien (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nVIGNAND SYLVIE\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG700 Anglais soutien , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mercredi",
+        "Location": "",
+        "Starts": "2025-12-10 17:15:00+00:00",
+        "Ends": "2025-12-10 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "ISOC831_Sopra_Consultant",
+        "Location": "A-C203 (30pl.)",
+        "Starts": "2026-04-17 06:30:00+00:00",
+        "Ends": "2026-04-17 10:00:00+00:00",
+        "Description": "ISOC831 Dimension métier (CM - BENE)\n\nIDU-4-Promo\nBERTIN Philippe (Bénévole)\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC831 Dimension métier , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mardi",
+        "Location": "",
+        "Starts": "2026-03-10 17:15:00+00:00",
+        "Ends": "2026-03-10 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "ISOC831_Sopra_AdminLinux",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-03-05 12:30:00+00:00",
+        "Ends": "2026-03-05 16:00:00+00:00",
+        "Description": "ISOC831 Dimension métier (SEMINAIRE)\n\nIDU-4-A1\nIDU-4-A2\nKIM Emmanuel (Bénévole)\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC831 Dimension métier , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_EX_Session2 (remplacement)",
+        "Location": "A-C107 (48pl.)",
+        "Starts": "2026-03-30 06:15:00+00:00",
+        "Ends": "2026-03-30 07:45:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (EXAMEN SESSION 2)\n\nIDU-4-Promo\nSNI-4\nexamen_Acy\nBASCOP ALEXANDRE\nKit d'évaluation\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 lundi",
+        "Location": "",
+        "Starts": "2026-01-19 17:15:00+00:00",
+        "Ends": "2026-01-19 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "MATH_741_TD_IDU/SNI",
+        "Location": "A-C108 (40pl.)",
+        "Starts": "2025-11-28 15:45:00+00:00",
+        "Ends": "2025-11-28 17:15:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG800_PACY (soutien)",
+        "Location": "A-C205 (30pl.),A-B120 (150pl.)",
+        "Starts": "2026-04-02 11:45:00+00:00",
+        "Ends": "2026-04-02 12:30:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nSELLIER KATRINE\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "Prévention - Evènement Pink - Amphi B014",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2026-01-21 11:15:00+00:00",
+        "Ends": "2026-01-21 12:15:00+00:00",
+        "Description": " (ACTIVITE ASSOCIATIVE)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nEPU-1-S2-PEIPA\nEPU-2-S4-PEIPA\nEPU-4\nMMT-5\nSNI-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 lundi",
+        "Location": "",
+        "Starts": "2025-10-06 16:15:00+00:00",
+        "Ends": "2025-10-06 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_CM",
+        "Location": "A-C105 (40pl.)",
+        "Starts": "2025-09-02 06:15:00+00:00",
+        "Ends": "2025-09-02 07:45:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (CM)\n\nIDU-4-Promo\nSNI-4\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO734_INGE_Proj",
+        "Location": "A-C210 -Libre service (28pl.),A-C202 (24pl.)",
+        "Starts": "2025-12-17 12:30:00+00:00",
+        "Ends": "2025-12-17 16:30:00+00:00",
+        "Description": "INFO734 Développement Full Stack (TD)\n\nIDU-4-A\nMIAN AMMAR\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO734 Développement Full Stack , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_CM",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2025-09-22 11:30:00+00:00",
+        "Ends": "2025-09-22 13:00:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_TD",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2025-11-12 07:15:00+00:00",
+        "Ends": "2025-11-12 08:45:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (TD)\n\nIDU-4-Promo\nCIMPAN SORANA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mercredi",
+        "Location": "",
+        "Starts": "2026-04-01 16:15:00+00:00",
+        "Ends": "2026-04-01 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "DATA831_INGE_TDTP",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2026-02-23 12:30:00+00:00",
+        "Ends": "2026-02-23 16:30:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nGALLET MATTHIEU\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-11-12 13:30:00+00:00",
+        "Ends": "2025-11-12 15:00:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_TP1",
+        "Location": "A-C202 (24pl.)",
+        "Starts": "2025-12-08 07:00:00+00:00",
+        "Ends": "2025-12-08 11:00:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (TP)\n\nIDU-4-A1\nMARY HUET de BAROCHEZ ANDREW\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES802_INGE_TD-IDU-A-SMQ",
+        "Location": "A-C109 (29pl.)",
+        "Starts": "2026-05-05 14:45:00+00:00",
+        "Ends": "2026-05-05 16:15:00+00:00",
+        "Description": "SHES803 THO (TD)\n\nIDU-4-A\nDANILLON YANNICK\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_CM",
+        "Location": "A-A203 (26pl.)",
+        "Starts": "2026-03-31 06:15:00+00:00",
+        "Ends": "2026-03-31 07:45:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (CM)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES802_INGE_CM_SST",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2026-02-09 09:00:00+00:00",
+        "Ends": "2026-02-09 10:30:00+00:00",
+        "Description": "SHES803 THO (CM)\n\nMECA-FISE-4\nIDU-4-Promo\nSNI-4\nPOUZADOUX PIERRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "ISOC731_INGE_Proj",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-11-26 07:00:00+00:00",
+        "Ends": "2025-11-26 11:00:00+00:00",
+        "Description": "ISOC731 Economie et gouvernance de la donnée (TD)\n\nIDU-4-A\nMATHIEU PAUL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC731 Economie et gouvernance de la donnée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "[RI] Réunion présentation procédure administrative mobilité S8 ACY",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-10-14 09:30:00+00:00",
+        "Ends": "2025-10-14 10:30:00+00:00",
+        "Description": " (REUNION)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "INFO734_INGE_Proj",
+        "Location": "A-C210 -Libre service (28pl.),A-C213 (32pl.)",
+        "Starts": "2026-01-06 12:30:00+00:00",
+        "Ends": "2026-01-06 16:30:00+00:00",
+        "Description": "INFO734 Développement Full Stack (TD)\n\nIDU-4-A\nMIAN AMMAR\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO734 Développement Full Stack , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA731_INGE_TP1",
+        "Location": "A-C209 (28pl.)",
+        "Starts": "2025-11-05 07:00:00+00:00",
+        "Ends": "2025-11-05 11:00:00+00:00",
+        "Description": "DATA731 Modélisation Stochastic (TP)\n\nIDU-4-A1\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA731 Modélisation Stochastic , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_EX",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-11-10 14:00:00+00:00",
+        "Ends": "2025-11-10 15:30:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (CM)\n\nIDU-4-Promo\nSNI-4\nKit d'évaluation\nexamen_Acy\nKit d'évaluation\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA731_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-11-17 14:00:00+00:00",
+        "Ends": "2025-11-17 15:30:00+00:00",
+        "Description": "DATA731 Modélisation Stochastic (CM)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA731 Modélisation Stochastic , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_CM",
+        "Location": "A-C108 (40pl.)",
+        "Starts": "2025-09-25 11:15:00+00:00",
+        "Ends": "2025-09-25 12:45:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (CM)\n\nIDU-4-Promo\nSNI-4\nARNAEZ OLIVIER\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES703 BOOSTE TES DÉMARCHES DE RECHERCHE DE STAGE",
+        "Location": "Distanciel,A-C103 (30pl.)",
+        "Starts": "2025-10-09 06:15:00+00:00",
+        "Ends": "2025-10-09 07:45:00+00:00",
+        "Description": "SHES 703 Ressources et dynamique professionnelles (TD)\n\nIDU-4-A\nDELTOUR QUENTIN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES 703 Ressources et dynamique professionnelles , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mercredi",
+        "Location": "",
+        "Starts": "2025-11-19 17:15:00+00:00",
+        "Ends": "2025-11-19 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "DATA831_INGE_CM",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2026-02-03 07:15:00+00:00",
+        "Ends": "2026-02-03 08:45:00+00:00",
+        "Description": "DATA831 : Big Data (CM)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA831 : Big Data , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mercredi",
+        "Location": "",
+        "Starts": "2025-11-05 17:15:00+00:00",
+        "Ends": "2025-11-05 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO734_INGE_Proj",
+        "Location": "A-C202 (24pl.),A-B120 (150pl.)",
+        "Starts": "2026-01-07 12:30:00+00:00",
+        "Ends": "2026-01-07 16:30:00+00:00",
+        "Description": "INFO734 Développement Full Stack (TD)\n\nIDU-4-A\nMIAN AMMAR\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO734 Développement Full Stack , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 lundi",
+        "Location": "",
+        "Starts": "2026-01-12 17:15:00+00:00",
+        "Ends": "2026-01-12 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "SHES802_INGE_TD-IDU-A-SST",
+        "Location": "A-C108 (40pl.)",
+        "Starts": "2026-02-27 13:45:00+00:00",
+        "Ends": "2026-02-27 15:15:00+00:00",
+        "Description": "SHES803 THO (TD)\n\nIDU-4-A\nPOUZADOUX PIERRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_CM",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-11-18 09:00:00+00:00",
+        "Ends": "2025-11-18 10:30:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (CM)\n\nIDU-4-Promo\nCIMPAN SORANA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA731_INGE_CM",
+        "Location": "A-C206-207 (72pl.)",
+        "Starts": "2025-12-17 07:15:00+00:00",
+        "Ends": "2025-12-17 08:45:00+00:00",
+        "Description": "DATA731 Modélisation Stochastic (CM)\n\nIDU-4-Promo\nGALLET MATTHIEU\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA731 Modélisation Stochastic , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 lundi",
+        "Location": "",
+        "Starts": "2025-09-29 16:15:00+00:00",
+        "Ends": "2025-09-29 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_TP1",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2026-03-20 07:00:00+00:00",
+        "Ends": "2026-03-20 11:00:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (TP)\n\nIDU-4-A1\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_TP1",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2026-03-27 07:00:00+00:00",
+        "Ends": "2026-03-27 11:00:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (TP)\n\nIDU-4-A1\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mardi",
+        "Location": "",
+        "Starts": "2026-03-03 17:15:00+00:00",
+        "Ends": "2026-03-03 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mardi",
+        "Location": "",
+        "Starts": "2026-02-24 17:15:00+00:00",
+        "Ends": "2026-02-24 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mercredi",
+        "Location": "",
+        "Starts": "2025-11-12 17:15:00+00:00",
+        "Ends": "2025-11-12 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_IDU",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2025-10-15 11:30:00+00:00",
+        "Ends": "2025-10-15 15:30:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (TD)\n\nIDU-4-Promo\nMARY HUET de BAROCHEZ ANDREW\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "PROJ832_INGE_CM",
+        "Location": "A-A203 (26pl.)",
+        "Starts": "2026-01-28 09:00:00+00:00",
+        "Ends": "2026-01-28 11:00:00+00:00",
+        "Description": "PROJ832 Flux de Données et Accès Concurrents (CM)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ832 Flux de Données et Accès Concurrents , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH_741_TD_IDU/SNI",
+        "Location": "A-C109 (29pl.)",
+        "Starts": "2025-10-14 14:45:00+00:00",
+        "Ends": "2025-10-14 16:15:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_TD",
+        "Location": "A-C209 (28pl.)",
+        "Starts": "2026-02-04 14:00:00+00:00",
+        "Ends": "2026-02-04 15:30:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (TD)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_TD",
+        "Location": "A-C210 -Libre service (28pl.)",
+        "Starts": "2025-09-11 13:00:00+00:00",
+        "Ends": "2025-09-11 14:30:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (TD)\n\nIDU-4-Promo\nFERRER ROMAIN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_TD",
+        "Location": "A-C203 (30pl.)",
+        "Starts": "2026-01-23 09:15:00+00:00",
+        "Ends": "2026-01-23 10:45:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (TD)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_CM",
+        "Location": "A-A031 (16pl.)",
+        "Starts": "2026-02-03 09:00:00+00:00",
+        "Ends": "2026-02-03 10:30:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (CM)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "ISOC731_INGE_Proj",
+        "Location": "A-C210 -Libre service (28pl.)",
+        "Starts": "2025-12-05 12:30:00+00:00",
+        "Ends": "2025-12-05 16:30:00+00:00",
+        "Description": "ISOC731 Economie et gouvernance de la donnée (TD)\n\nIDU-4-A\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC731 Economie et gouvernance de la donnée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES802_INGE_TD-IDU-A-SST",
+        "Location": "A-C108 (40pl.)",
+        "Starts": "2026-02-27 15:15:00+00:00",
+        "Ends": "2026-02-27 16:45:00+00:00",
+        "Description": "SHES803 THO (TD)\n\nIDU-4-A\nPOUZADOUX PIERRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mardi",
+        "Location": "",
+        "Starts": "2025-12-16 17:15:00+00:00",
+        "Ends": "2025-12-16 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nMECA-FISE-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "SHES803_INGE_CM_Preparation",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2026-02-11 12:15:00+00:00",
+        "Ends": "2026-02-11 13:45:00+00:00",
+        "Description": "SHES803 THO (CM)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVALISE EPU-A-2\nVALISE EPU-A-1\nWOLFF CHRISTIAN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_CM",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-09-10 13:00:00+00:00",
+        "Ends": "2025-09-10 14:30:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (CM)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG801_PACY stage toeic avril+ cours 802",
+        "Location": "A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.),A-C209 (28pl.)",
+        "Starts": "2026-04-22 06:15:00+00:00",
+        "Ends": "2026-04-22 09:15:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nCLARK JULIE\nDUPRE PAMELA\nVIGNAND SYLVIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA832_INGE_TPPTD_2h",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-03-11 12:15:00+00:00",
+        "Ends": "2026-03-11 14:15:00+00:00",
+        "Description": "DATA832 Machine learning 1 (TP)\n\nIDU-4-A1\nIDU-4-A2\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_CM",
+        "Location": "A-C108 (40pl.)",
+        "Starts": "2025-09-10 11:15:00+00:00",
+        "Ends": "2025-09-10 12:45:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (CM)\n\nIDU-4-Promo\nSNI-4\nARNAEZ OLIVIER\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG800_PACY (soutien)",
+        "Location": "A-C205 (30pl.),A-B120 (150pl.)",
+        "Starts": "2026-04-02 13:15:00+00:00",
+        "Ends": "2026-04-02 14:00:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nSELLIER KATRINE\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "PROJ831_INGE_TPD",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2026-03-25 12:15:00+00:00",
+        "Ends": "2026-03-25 16:15:00+00:00",
+        "Description": "PROJ831 Projet Informatique Données et Usages (TD)\n\nIDU-4-A\nIngénieur Polylab\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ831 Projet Informatique Données et Usages , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES703 STRATAGÈME",
+        "Location": "A-C203 (30pl.),A-A022 (22pl.)",
+        "Starts": "2025-11-17 07:15:00+00:00",
+        "Ends": "2025-11-17 08:45:00+00:00",
+        "Description": "SHES 703 Ressources et dynamique Professionnelles (TD)\n\nIDU-4-A\nDELTOUR QUENTIN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES 703 Ressources et dynamique Professionnelles , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-09-16 11:15:00+00:00",
+        "Ends": "2025-09-16 12:45:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_TD",
+        "Location": "A-C209 (28pl.)",
+        "Starts": "2026-02-06 07:00:00+00:00",
+        "Ends": "2026-02-06 08:30:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (TD)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_TD",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-03-16 09:00:00+00:00",
+        "Ends": "2026-03-16 10:30:00+00:00",
+        "Description": "INFO834 Base de données distribuée (TD)\n\nIDU-4-Promo\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 lundi",
+        "Location": "",
+        "Starts": "2025-09-22 16:15:00+00:00",
+        "Ends": "2025-09-22 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_CMEX",
+        "Location": "A-A022 (22pl.)",
+        "Starts": "2025-11-10 15:45:00+00:00",
+        "Ends": "2025-11-10 17:15:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (CM)\n\nIDU-4-Promo\nexamen_Acy\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_TP1",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2026-04-15 06:00:00+00:00",
+        "Ends": "2026-04-15 10:00:00+00:00",
+        "Description": "INFO834 Base de données distribuée (TP)\n\nIDU-4-A1\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH_741_TD_IDU/SNI",
+        "Location": "A-C109 (29pl.)",
+        "Starts": "2025-11-04 09:00:00+00:00",
+        "Ends": "2025-11-04 10:30:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , NTRANS_210 , \n"
+    },
+    {
+        "Title": "ISOC731_INGE_CM",
+        "Location": "A-C203 (30pl.)",
+        "Starts": "2025-12-10 15:45:00+00:00",
+        "Ends": "2025-12-10 17:15:00+00:00",
+        "Description": "ISOC731 Economie et gouvernance de la donnée (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC731 Economie et gouvernance de la donnée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "USA : tour de CCE et VIE aux USA, opportunités d'emploi de ce marché",
+        "Location": "",
+        "Starts": "2025-10-09 13:30:00+00:00",
+        "Ends": "2025-10-09 15:00:00+00:00",
+        "Description": " ()\n\nEvénement IDU-4\nEvénement-IDU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mercredi",
+        "Location": "",
+        "Starts": "2026-02-25 17:15:00+00:00",
+        "Ends": "2026-02-25 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_IDU",
+        "Location": "A-C209 (28pl.)",
+        "Starts": "2025-09-24 06:00:00+00:00",
+        "Ends": "2025-09-24 10:00:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (TD)\n\nIDU-4-Promo\nMARY HUET de BAROCHEZ ANDREW\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_TD",
+        "Location": "A-C110 (29pl.)",
+        "Starts": "2026-01-29 09:15:00+00:00",
+        "Ends": "2026-01-29 10:45:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (TD)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_TD",
+        "Location": "A-C202 (24pl.)",
+        "Starts": "2026-03-09 09:00:00+00:00",
+        "Ends": "2026-03-09 10:30:00+00:00",
+        "Description": "INFO834 Base de données distribuée (TD)\n\nIDU-4-Promo\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 lundi",
+        "Location": "",
+        "Starts": "2026-03-23 18:30:00+00:00",
+        "Ends": "2026-03-23 20:15:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_TP1",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2026-03-27 12:15:00+00:00",
+        "Ends": "2026-03-27 16:15:00+00:00",
+        "Description": "INFO834 Base de données distribuée (TP)\n\nIDU-4-A1\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_CM",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-10-07 13:00:00+00:00",
+        "Ends": "2025-10-07 14:30:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (CM)\n\nIDU-4-Promo\nMATHIEU PAUL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_CM",
+        "Location": "A-A204 (28pl.)",
+        "Starts": "2026-02-11 09:00:00+00:00",
+        "Ends": "2026-02-11 10:30:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (CM)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_TD",
+        "Location": "A-C202 (24pl.)",
+        "Starts": "2025-10-24 13:00:00+00:00",
+        "Ends": "2025-10-24 14:30:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (TD)\n\nIDU-4-Promo\nCIMPAN SORANA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mardi",
+        "Location": "",
+        "Starts": "2026-02-10 17:15:00+00:00",
+        "Ends": "2026-02-10 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_TP1",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-12-04 07:00:00+00:00",
+        "Ends": "2025-12-04 11:00:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (TP)\n\nIDU-4-A1\nMARY HUET de BAROCHEZ ANDREW\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-10-23 08:00:00+00:00",
+        "Ends": "2025-10-23 09:30:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (CM)\n\nIDU-4-Promo\nCIMPAN SORANA\n\n1726497765878\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG801_PACY + 802",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2026-01-20 14:00:00+00:00",
+        "Ends": "2026-01-20 15:30:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\nCLARK JULIE\nDUPRE PAMELA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_EX",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-10-03 13:00:00+00:00",
+        "Ends": "2025-10-03 14:30:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (CM)\n\nIDU-4-Promo\nSNI-4\nKit d'évaluation\nexamen_Acy\nKit d'évaluation\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_TP1",
+        "Location": "A-C210 -Libre service (28pl.)",
+        "Starts": "2026-01-12 11:45:00+00:00",
+        "Ends": "2026-01-12 15:45:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (TP)\n\nIDU-4-A1\nMARY HUET de BAROCHEZ ANDREW\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES802_INGE_CM_SST",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2026-02-02 07:15:00+00:00",
+        "Ends": "2026-02-02 08:45:00+00:00",
+        "Description": "SHES803 THO (CM)\n\nMECA-FISE-4\nIDU-4-Promo\nSNI-4\nPOUZADOUX PIERRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_CM",
+        "Location": "A-C105 (40pl.)",
+        "Starts": "2026-03-31 08:00:00+00:00",
+        "Ends": "2026-03-31 09:30:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (CM)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mardi",
+        "Location": "",
+        "Starts": "2025-09-30 16:15:00+00:00",
+        "Ends": "2025-09-30 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nMECA-FISE-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_CM",
+        "Location": "A-C107 (48pl.)",
+        "Starts": "2025-09-26 08:00:00+00:00",
+        "Ends": "2025-09-26 09:30:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (CM)\n\nIDU-4-Promo\nSNI-4\nARNAEZ OLIVIER\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_TP1",
+        "Location": "A-C216 (30pl.)",
+        "Starts": "2026-05-06 06:00:00+00:00",
+        "Ends": "2026-05-06 10:00:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (TP)\n\nIDU-4-A1\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_Exam",
+        "Location": "A-C206-207 (72pl.)",
+        "Starts": "2026-05-05 08:00:00+00:00",
+        "Ends": "2026-05-05 09:30:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (CM)\n\nIDU-4-Promo\nexamen_Acy\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO743_INGE_EX",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-11-28 14:00:00+00:00",
+        "Ends": "2025-11-28 15:30:00+00:00",
+        "Description": "INFO743 Réseaux et systèmes répartis (EXAMEN)\n\nIDU-4-Promo\nSNI-4\nSALAMATIAN MOHAMMAD-REZA\nKit d'évaluation\nexamen_Acy\nEnseignant X\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO743 Réseaux et systèmes répartis , NTRANS_210 , \n"
+    },
+    {
+        "Title": "PROJ731_INGE_APP",
+        "Location": "A-C202 (24pl.)",
+        "Starts": "2025-11-19 12:00:00+00:00",
+        "Ends": "2025-11-19 16:00:00+00:00",
+        "Description": "PROJ731_IDU APP Analyse et visualisation de données (TD)\n\nIDU-4-A\nMATHIEU PAUL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ731_IDU APP Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "Visite Groupe Fournier",
+        "Location": "",
+        "Starts": "2025-10-08 06:30:00+00:00",
+        "Ends": "2025-10-08 10:00:00+00:00",
+        "Description": " ()\n\nIDU-4-A1\nIDU-4-A2\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "INFO734_INGE_CM",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-11-17 12:15:00+00:00",
+        "Ends": "2025-11-17 13:45:00+00:00",
+        "Description": "INFO734 Développement Full Stack (CM)\n\nIDU-4-Promo\nMIAN AMMAR\n\n1726497763927\n\n(Exporté le:29/04/2026 10:56)\n\nINFO734 Développement Full Stack , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_TD",
+        "Location": "A-C203 (30pl.)",
+        "Starts": "2026-03-03 09:00:00+00:00",
+        "Ends": "2026-03-03 10:30:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (TD)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_CM",
+        "Location": "A-C105 (40pl.)",
+        "Starts": "2025-10-08 11:15:00+00:00",
+        "Ends": "2025-10-08 12:45:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (CM)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO734_INGE_CM",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2025-10-20 11:15:00+00:00",
+        "Ends": "2025-10-20 12:45:00+00:00",
+        "Description": "INFO734 Développement Full Stack (CM)\n\nIDU-4-Promo\nMIAN AMMAR\n\n1726497763569\n\n(Exporté le:29/04/2026 10:56)\n\nINFO734 Développement Full Stack , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-11-25 15:45:00+00:00",
+        "Ends": "2025-11-25 17:15:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (CM)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mercredi",
+        "Location": "",
+        "Starts": "2025-09-24 16:15:00+00:00",
+        "Ends": "2025-09-24 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-11-18 12:15:00+00:00",
+        "Ends": "2025-11-18 13:45:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 lundi",
+        "Location": "",
+        "Starts": "2026-03-30 17:30:00+00:00",
+        "Ends": "2026-03-30 19:15:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_TP1",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-04-01 06:00:00+00:00",
+        "Ends": "2026-04-01 10:00:00+00:00",
+        "Description": "INFO834 Base de données distribuée (TP)\n\nIDU-4-A1\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mardi",
+        "Location": "",
+        "Starts": "2026-01-27 17:15:00+00:00",
+        "Ends": "2026-01-27 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_CM",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2025-09-04 08:00:00+00:00",
+        "Ends": "2025-09-04 09:30:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (CM)\n\nIDU-4-Promo\nCIMPAN SORANA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG801_PACY + 802",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2026-02-03 14:00:00+00:00",
+        "Ends": "2026-02-03 15:30:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\nCLARK JULIE\nDUPRE PAMELA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA832_INGE_CM",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2026-03-05 07:15:00+00:00",
+        "Ends": "2026-03-05 08:45:00+00:00",
+        "Description": "DATA832 Machine learning 1 (CM)\n\nIDU-4-Promo\nGALLET MATTHIEU\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "DATA731_INGE_TP1",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2025-12-03 07:00:00+00:00",
+        "Ends": "2025-12-03 11:00:00+00:00",
+        "Description": "DATA731 Modélisation Stochastic (TP)\n\nIDU-4-A1\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA731 Modélisation Stochastic , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mardi",
+        "Location": "",
+        "Starts": "2025-09-23 16:15:00+00:00",
+        "Ends": "2025-09-23 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nMECA-FISE-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "INFO734_INGE_Proj",
+        "Location": "A-C215 (28pl.),A-C202 (24pl.)",
+        "Starts": "2025-10-22 11:15:00+00:00",
+        "Ends": "2025-10-22 15:15:00+00:00",
+        "Description": "INFO734 Développement Full Stack (TD)\n\nIDU-4-A\nMIAN AMMAR\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO734 Développement Full Stack , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO834_INGE_CM",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2026-01-28 12:15:00+00:00",
+        "Ends": "2026-01-28 13:45:00+00:00",
+        "Description": "INFO834 Base de données distribuée (CM)\n\nIDU-4-Promo\nALLOUI ILHAM\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO834 Base de données distribuée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "ISOC831_Sopra_Urba_Archi",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2026-03-17 07:00:00+00:00",
+        "Ends": "2026-03-17 10:30:00+00:00",
+        "Description": "ISOC831 Dimension métier (CM)\n\nIDU-4-Promo\nVARLOOT GABRIELLE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC831 Dimension métier , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES802_INGE_CM_SMQ",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2026-05-05 11:15:00+00:00",
+        "Ends": "2026-05-05 12:45:00+00:00",
+        "Description": "SHES803 THO (CM)\n\nMECA-FISE-4\nIDU-4-Promo\nSNI-4\nDANILLON YANNICK\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "MATH_741_TD_IDU/SNI",
+        "Location": "A-C105 (40pl.)",
+        "Starts": "2025-11-13 07:15:00+00:00",
+        "Ends": "2025-11-13 08:45:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO833_INGE_TD",
+        "Location": "A-C208 (29pl.)",
+        "Starts": "2026-03-30 11:30:00+00:00",
+        "Ends": "2026-03-30 13:00:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (TD)\n\nIDU-4-Promo\nMONNET SÉBASTIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_CM",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-11-10 12:15:00+00:00",
+        "Ends": "2025-11-10 13:45:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (CM)\n\nIDU-4-Promo\nCIMPAN SORANA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES802_INGE_CM_SMQ",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2026-05-04 11:15:00+00:00",
+        "Ends": "2026-05-04 12:45:00+00:00",
+        "Description": "SHES803 THO (CM)\n\nMECA-FISE-4\nIDU-4-Promo\nSNI-4\nDANILLON YANNICK\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_Proj",
+        "Location": "A-C213 (32pl.)",
+        "Starts": "2026-01-06 07:00:00+00:00",
+        "Ends": "2026-01-06 11:00:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (TD)\n\nIDU-4-A\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES802_INGE_TD-IDU-A-SMQ",
+        "Location": "A-C109 (29pl.)",
+        "Starts": "2026-05-06 13:00:00+00:00",
+        "Ends": "2026-05-06 14:30:00+00:00",
+        "Description": "SHES803 THO (TD)\n\nIDU-4-A\nDANILLON YANNICK\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA832_INGE_TPPTD_2h",
+        "Location": "A-C210 -Libre service (28pl.)",
+        "Starts": "2026-03-25 08:45:00+00:00",
+        "Ends": "2026-03-25 10:45:00+00:00",
+        "Description": "DATA832 Machine learning 1 (TP)\n\nIDU-4-A1\nIDU-4-A2\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "PROJ831_INGE_Auto",
+        "Location": "A-C216 (30pl.)",
+        "Starts": "2026-03-23 12:30:00+00:00",
+        "Ends": "2026-03-23 16:30:00+00:00",
+        "Description": "PROJ831 Projet Informatique Données et Usages (PROJET)\n\nIDU-4-A\nIngénieur Polylab\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nPROJ831 Projet Informatique Données et Usages , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mercredi",
+        "Location": "",
+        "Starts": "2026-03-04 17:15:00+00:00",
+        "Ends": "2026-03-04 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "SHES703 MON PROJET PROFESSIONNEL",
+        "Location": "A-C110 (29pl.),A-C203 (30pl.),A-C111 (30pl.)",
+        "Starts": "2025-09-22 06:15:00+00:00",
+        "Ends": "2025-09-22 07:45:00+00:00",
+        "Description": "SHES 703 Ressources et dynamique Professionnelles (TD)\n\nIDU-4-A\nDELTOUR QUENTIN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES 703 Ressources et dynamique Professionnelles , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO734_INGE_Proj",
+        "Location": "A-C214 (32pl.),A-C202 (24pl.)",
+        "Starts": "2025-11-27 12:00:00+00:00",
+        "Ends": "2025-11-27 16:00:00+00:00",
+        "Description": "INFO734 Développement Full Stack (TD)\n\nIDU-4-A\nMIAN AMMAR\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO734 Développement Full Stack , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mercredi",
+        "Location": "",
+        "Starts": "2025-11-26 17:15:00+00:00",
+        "Ends": "2025-11-26 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "SHES803_INGE_CM",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2026-03-09 07:15:00+00:00",
+        "Ends": "2026-03-09 08:45:00+00:00",
+        "Description": "SHES803 THO (CM)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nAnnecy sans boitier\nVALISE EPU-A-2\nWOLFF CHRISTIAN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG700_PACY (soutien)",
+        "Location": "A-C205 (30pl.),A-C204 (24pl.)",
+        "Starts": "2025-09-25 13:45:00+00:00",
+        "Ends": "2025-09-25 14:30:00+00:00",
+        "Description": "LANG700 Anglais soutien (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nVIGNAND SYLVIE\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG700 Anglais soutien , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mardi",
+        "Location": "",
+        "Starts": "2025-10-14 16:15:00+00:00",
+        "Ends": "2025-10-14 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nMECA-FISE-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "DATA832_INGE_TPTD_2h",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-03-16 12:15:00+00:00",
+        "Ends": "2026-03-16 14:15:00+00:00",
+        "Description": "DATA832 Machine learning 1 (TD)\n\nIDU-4-A1\nIDU-4-A2\nBENOIT ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA832 Machine learning 1 , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG801_PACY + 802",
+        "Location": "A-C104 (29pl.),A-C111 (30pl.),A-C203 (30pl.),A-B014 (150pl.)",
+        "Starts": "2026-02-10 14:00:00+00:00",
+        "Ends": "2026-02-10 15:30:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\nCLARK JULIE\nDUPRE PAMELA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "[RI] Semaine internationale ACY",
+        "Location": "",
+        "Starts": "2025-10-07 10:30:00+00:00",
+        "Ends": "2025-10-07 12:00:00+00:00",
+        "Description": " (REUNION)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "BDE PRESENTATION DES CLUBS",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2025-09-03 09:30:00+00:00",
+        "Ends": "2025-09-03 10:15:00+00:00",
+        "Description": " (AUTRE ACTIVITE)\n\nIDU-3\nMECA-FISA-3\nMECA-FISE-3\nSNI-3\nEPU-1-S1-PEIPA\nIDU-4\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "MATH741_INGE_ET",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2026-01-13 09:15:00+00:00",
+        "Ends": "2026-01-13 10:45:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (CM)\n\nIDU-4-Promo\nSNI-4\nKit d'évaluation\nexamen_Acy\nKit d'évaluation\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO732_INGE_TD",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2025-11-19 09:00:00+00:00",
+        "Ends": "2025-11-19 10:30:00+00:00",
+        "Description": "INFO732 Conception et Modélisation Dynamique (TD)\n\nIDU-4-Promo\nCIMPAN SORANA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO732 Conception et Modélisation Dynamique , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG801_PACY + 802",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2026-03-10 12:15:00+00:00",
+        "Ends": "2026-03-10 13:45:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nMECA-FISE-4\nSNI-4\nIDU-4-Promo\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\nCLARK JULIE\nDUPRE PAMELA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES703 STRATAGÈME",
+        "Location": "A-C203 (30pl.),Distanciel",
+        "Starts": "2025-11-17 09:00:00+00:00",
+        "Ends": "2025-11-17 10:30:00+00:00",
+        "Description": "SHES 703 Ressources et dynamique Professionnelles (TD)\n\nIDU-4-A\nDELTOUR QUENTIN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES 703 Ressources et dynamique Professionnelles , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mardi",
+        "Location": "",
+        "Starts": "2025-11-18 17:15:00+00:00",
+        "Ends": "2025-11-18 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nMECA-FISE-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "SHES803_INGE_TD-IDU-A",
+        "Location": "A-C109 (29pl.)",
+        "Starts": "2026-03-09 14:00:00+00:00",
+        "Ends": "2026-03-09 15:30:00+00:00",
+        "Description": "SHES803 THO (TD)\n\nIDU-4-A\nWOLFF CHRISTIAN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG801_Toeic_Avril",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2026-04-23 10:15:00+00:00",
+        "Ends": "2026-04-23 14:15:00+00:00",
+        "Description": " ()\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nMIGNOT SUSANNAH\nCLARK JULIE\nVIGNAND SYLVIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "INFO833_INGE_TP1",
+        "Location": "A-C215 (28pl.)",
+        "Starts": "2026-04-27 11:30:00+00:00",
+        "Ends": "2026-04-27 15:30:00+00:00",
+        "Description": "INFO833 Système distribué à large échelle (TP)\n\nIDU-4-A1\nMARY HUET de BAROCHEZ ANDREW\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO833 Système distribué à large échelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO731_INGE_CM",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2025-10-02 08:00:00+00:00",
+        "Ends": "2025-10-02 09:30:00+00:00",
+        "Description": "INFO731 Sécurité et Cryptographie (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n1726497764511\n\n(Exporté le:29/04/2026 10:56)\n\nINFO731 Sécurité et Cryptographie , N4IE01_191 , \n"
+    },
+    {
+        "Title": "SHES802_INGE_TD-IDU-A-SST",
+        "Location": "A-C108 (40pl.)",
+        "Starts": "2026-02-27 12:15:00+00:00",
+        "Ends": "2026-02-27 13:45:00+00:00",
+        "Description": "SHES803 THO (TD)\n\nIDU-4-A\nPOUZADOUX PIERRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES802_INGE_CM_SMQ",
+        "Location": "A-B014 (150pl.)",
+        "Starts": "2026-05-06 11:15:00+00:00",
+        "Ends": "2026-05-06 12:45:00+00:00",
+        "Description": "SHES803 THO (CM)\n\nMECA-FISE-4\nIDU-4-Promo\nSNI-4\nDANILLON YANNICK\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES803 THO , NTRANS_210 , \n"
+    },
+    {
+        "Title": "SHES704_TD_LeGoff_Perrine",
+        "Location": "",
+        "Starts": "2025-12-16 06:30:00+00:00",
+        "Ends": "2025-12-16 11:30:00+00:00",
+        "Description": "SHES704 Créativité & Management de l'innovation (TD)\n\nIDU-4\nLE GOFF PERRINE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES704 Créativité & Management de l'innovation , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG700_PACY (soutien)",
+        "Location": "A-B014 (150pl.),A-C205 (30pl.)",
+        "Starts": "2025-09-18 11:15:00+00:00",
+        "Ends": "2025-09-18 12:00:00+00:00",
+        "Description": "LANG700 Anglais soutien (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nVIGNAND SYLVIE\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG700 Anglais soutien , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG602-802_LV2 mercredi",
+        "Location": "",
+        "Starts": "2026-03-25 17:15:00+00:00",
+        "Ends": "2026-03-25 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-3\nMECA-FISE-3\nSNI-3\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "BDS - Passation des Clubs (Facultatif)",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2025-10-02 16:00:00+00:00",
+        "Ends": "2025-10-02 17:30:00+00:00",
+        "Description": " (ACTIVITE NON ENCADREE)\n\nEPU-1-S1-PEIPA\nEPU-2-S3-PEIPA\nEPU-5\nEPU-4\nIDU-3\nSNI-3\nMECA-FISE-3\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-09-09 13:00:00+00:00",
+        "Ends": "2025-09-09 14:30:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C205 (30pl.),A-C204 (24pl.),A-C203 (30pl.),A-B120 (150pl.)",
+        "Starts": "2025-10-14 11:15:00+00:00",
+        "Ends": "2025-10-14 12:45:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nVIGNAND SYLVIE\nDUPRE PAMELA\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_TD",
+        "Location": "A-C217 (24pl.)",
+        "Starts": "2025-10-07 08:00:00+00:00",
+        "Ends": "2025-10-07 09:30:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (TD)\n\nIDU-4-Promo\nFERRER ROMAIN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "MATH741_INGE_CM",
+        "Location": "A-C107 (48pl.)",
+        "Starts": "2025-10-14 08:00:00+00:00",
+        "Ends": "2025-10-14 09:30:00+00:00",
+        "Description": "MATH741 Probabilités Statistiques (CM)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nMATH741 Probabilités Statistiques , NTRANS_210 , \n"
+    },
+    {
+        "Title": "[COM] Cérémonie remise diplômes",
+        "Location": "",
+        "Starts": "2025-11-14 15:00:00+00:00",
+        "Ends": "2025-11-14 18:30:00+00:00",
+        "Description": " (REUNION)\n\nBAT\nEPU-4\nEPU-5\nITII-4\nEPU-3-S5\nEN\nIB\nEIT\nMC\nMECA-FISE-3\nIDU-3\nSNI-3\nBAT_FISE\nEIT-4\nMC-4\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n ,  , \n"
+    },
+    {
+        "Title": "SHES704_TD_LeGoff_Perrine",
+        "Location": "",
+        "Starts": "2025-12-16 12:15:00+00:00",
+        "Ends": "2025-12-16 17:15:00+00:00",
+        "Description": "SHES704 Créativité & Management de l'innovation (TD)\n\nIDU-4\nLE GOFF PERRINE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nSHES704 Créativité & Management de l'innovation , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mardi",
+        "Location": "",
+        "Starts": "2025-10-07 16:15:00+00:00",
+        "Ends": "2025-10-07 18:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nMECA-FISE-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG701_PACY+ 702",
+        "Location": "A-C111 (30pl.),A-C203 (30pl.),A-C204 (24pl.),A-C205 (30pl.)",
+        "Starts": "2025-11-04 14:00:00+00:00",
+        "Ends": "2025-11-04 15:30:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nDUPRE PAMELA\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_CM",
+        "Location": "A-C203 (30pl.)",
+        "Starts": "2026-03-02 12:15:00+00:00",
+        "Ends": "2026-03-02 13:45:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (CM)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "INFO832_INGE_TD",
+        "Location": "A-C214 (32pl.)",
+        "Starts": "2026-04-03 06:15:00+00:00",
+        "Ends": "2026-04-03 07:45:00+00:00",
+        "Description": "INFO832 Qualité et test logiciel (TD)\n\nIDU-4-Promo\nVERNIER FLAVIEN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO832 Qualité et test logiciel , N4IE01_191 , \n"
+    },
+    {
+        "Title": "ISOC731_INGE_CM",
+        "Location": "A-C105 (40pl.)",
+        "Starts": "2025-10-01 11:15:00+00:00",
+        "Ends": "2025-10-01 12:45:00+00:00",
+        "Description": "ISOC731 Economie et gouvernance de la donnée (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n1726497764783\n\n(Exporté le:29/04/2026 10:56)\n\nISOC731 Economie et gouvernance de la donnée , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mardi",
+        "Location": "",
+        "Starts": "2025-11-04 17:15:00+00:00",
+        "Ends": "2025-11-04 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nMECA-FISE-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "MATH_741_TD_IDU/SNI",
+        "Location": "A-C107 (48pl.)",
+        "Starts": "2025-09-26 06:15:00+00:00",
+        "Ends": "2025-09-26 07:45:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nSNI-4\nBASCOP ALEXANDRE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , NTRANS_210 , \n"
+    },
+    {
+        "Title": "LANG800_PACY (soutien)",
+        "Location": "A-C205 (30pl.),A-B120 (150pl.)",
+        "Starts": "2026-04-02 11:00:00+00:00",
+        "Ends": "2026-04-02 11:45:00+00:00",
+        "Description": "LV801 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nSELLIER KATRINE\nCLARK JULIE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLV801 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "INFO831_INGE_CM",
+        "Location": "Distanciel",
+        "Starts": "2026-02-04 12:15:00+00:00",
+        "Ends": "2026-02-04 13:45:00+00:00",
+        "Description": "INFO831 Informatique décisionnelle (CM)\n\nIDU-4-Promo\nATTO ABDOURRAHMANE\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nINFO831 Informatique décisionnelle , N4IE01_191 , \n"
+    },
+    {
+        "Title": "LANG702-902_LV2 mercredi",
+        "Location": "",
+        "Starts": "2025-12-17 17:15:00+00:00",
+        "Ends": "2025-12-17 19:00:00+00:00",
+        "Description": " (TD)\n\nIDU-4-Promo\nMECA-FISE-4\nSNI-4\nEPU-5\n\n\n\n(Exporté le:29/04/2026 10:56)\n\n , 00000 , \n"
+    },
+    {
+        "Title": "LANG701_PACY TOEIC déc",
+        "Location": "A-B120 (150pl.)",
+        "Starts": "2026-01-09 11:30:00+00:00",
+        "Ends": "2026-01-09 15:30:00+00:00",
+        "Description": "LANG701 Anglais (TD)\n\nSNI-4\nMECA-FISE-4\nIDU-4-Promo\nMIGNOT SUSANNAH\nCLARK JULIE\nVIGNAND SYLVIE\nYVENAT SCHELLER MURIEL\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nLANG701 Anglais , NTRANS_210 , \n"
+    },
+    {
+        "Title": "DATA732_INGE_Proj",
+        "Location": "A-C210 -Libre service (28pl.),A-C202 (24pl.)",
+        "Starts": "2025-11-10 07:00:00+00:00",
+        "Ends": "2025-11-10 11:00:00+00:00",
+        "Description": "DATA732 Analyse et visualisation de données (TD)\n\nIDU-4-A\nFERRER ROMAIN\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nDATA732 Analyse et visualisation de données , N4IE01_191 , \n"
+    },
+    {
+        "Title": "ISOC731_INGE_CM",
+        "Location": "A-A022 (22pl.)",
+        "Starts": "2025-09-26 11:15:00+00:00",
+        "Ends": "2025-09-26 12:45:00+00:00",
+        "Description": "ISOC731 Economie et gouvernance de la donnée (CM)\n\nIDU-4-Promo\nSALAMATIAN MOHAMMAD-REZA\n\n\n\n(Exporté le:29/04/2026 10:56)\n\nISOC731 Economie et gouvernance de la donnée , N4IE01_191 , \n"
+    }
+]
